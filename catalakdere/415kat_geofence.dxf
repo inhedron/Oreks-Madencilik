@@ -5,23 +5,19 @@ HEADER
   9
 $ACADVER
   1
-AC1027
+AC1024
   9
 $ACADMAINTVER
  70
-   105
+     6
   9
 $DWGCODEPAGE
   3
-ANSI_1254
-  9
-$REQUIREDVERSIONS
-160
-                 0
+ANSI_1252
   9
 $LASTSAVEDBY
   1
-admin
+mehme
   9
 $INSBASE
  10
@@ -45,19 +41,19 @@ $EXTMAX
  20
 4400501.481
  30
-416.0
+416.0016978904284
   9
 $LIMMIN
  10
-496382.4843905309
+496260.3999451914
  20
-4226790.356246892
+4226807.409272929
   9
 $LIMMAX
  10
-496965.4485026535
+496843.3640573141
  20
-4227247.625246893
+4227264.678272929
   9
 $ORTHOMODE
  70
@@ -109,7 +105,7 @@ ByLayer
   9
 $CECOLOR
  62
-     7
+     3
   9
 $CELTSCALE
  40
@@ -217,7 +213,7 @@ $DIMPOST
   9
 $DIMAPOST
   1
-^B2147483648l^B^B2147483648l^B
+뎠甈鐔^X뎿甈
   9
 $DIMALT
  70
@@ -493,27 +489,27 @@ $SKPOLY
   9
 $TDCREATE
  40
-2457871.617453449
+2457871.659417049
   9
 $TDUCREATE
  40
-2457871.534120116
+2457871.534417049
   9
 $TDUPDATE
  40
-2457875.652338102
+2457913.572981898
   9
 $TDUUPDATE
  40
-2457875.569004769
+2457913.447981898
   9
 $TDINDWG
  40
-0.0009646528
+0.0079623148
   9
 $TDUSRTIMER
  40
-2457875.568897396
+2457913.437539062
   9
 $USRTIMER
  70
@@ -553,7 +549,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-3F8
+4FD
   9
 $SURFTAB1
  70
@@ -613,7 +609,7 @@ $UCSORTHOREF
   9
 $UCSORTHOVIEW
  70
-     0
+     1
   9
 $UCSORGTOP
  10
@@ -933,7 +929,7 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{7F0919D4-082E-4357-8E06-3AEF842C91F8}
+{2D13BD71-8D30-400B-B1D5-87DC81BEED39}
   9
 $VERSIONGUID
   2
@@ -1127,7 +1123,7 @@ ObjectDBX Classes
  90
         0
  91
-        6
+        8
 280
      0
 281
@@ -1143,7 +1139,7 @@ ObjectDBX Classes
  90
      4095
  91
-        6
+        8
 280
      0
 281
@@ -1159,7 +1155,7 @@ ObjectDBX Classes
  90
      1153
  91
-        6
+        8
 280
      0
 281
@@ -1175,7 +1171,7 @@ SCENEOE
  90
      1153
  91
-        6
+        8
 280
      0
 281
@@ -1191,7 +1187,7 @@ AecBase60
  90
       129
  91
-        5
+        4
 280
      0
 281
@@ -2039,7 +2035,7 @@ AecArchBase60
  90
       129
  91
-        5
+        4
 280
      0
 281
@@ -4119,7 +4115,7 @@ AecArchDACHBase60
  90
       129
  91
-        5
+        4
 280
      0
 281
@@ -4183,7 +4179,7 @@ AecSchedule50
  90
       129
  91
-        5
+        4
 280
      0
 281
@@ -4343,7 +4339,7 @@ ACDB_MLEADERSTYLE_CLASS
  90
      4095
  91
-        6
+        8
 280
      0
 281
@@ -4455,7 +4451,7 @@ ObjectDBX Classes
  90
      4095
  91
-        6
+        8
 280
      0
 281
@@ -4503,7 +4499,7 @@ ObjectDBX Classes
  90
      1153
  91
-        6
+        8
 280
      0
 281
@@ -4519,7 +4515,7 @@ ISM
  90
         0
  91
-        6
+        8
 280
      0
 281
@@ -4535,7 +4531,7 @@ ObjectDBX Classes
  90
         0
  91
-        6
+        8
 280
      0
 281
@@ -4551,7 +4547,7 @@ ObjectDBX Classes
  90
      1152
  91
-        6
+        5
 280
      0
 281
@@ -4597,9 +4593,9 @@ AcDbViewportTableRecord
  21
 1.0
  12
-139.176690230961
+-107.4650880878908
  22
--141.4284761277959
+-119.6513064438477
  13
 0.0
  23
@@ -4619,15 +4615,15 @@ AcDbViewportTableRecord
  36
 1.0
  17
-516890.8819573224
+517014.8815110426
  27
-4400392.412514749
+4400513.215440393
  37
-410.3999938964844
+459.5096568354743
  40
-20.51312136691719
+318.8685749992493
  41
-2.692307692307693
+1.983490566037736
  42
 50.0
  43
@@ -4677,7 +4673,7 @@ AcDbViewportTableRecord
 132
 0.0
  79
-     0
+     1
 146
 0.0
 348
@@ -5251,7 +5247,7 @@ LAYER
 102
 {ACAD_XDICTIONARY
 360
-3E7
+408
 102
 }
 330
@@ -5259,7 +5255,7 @@ LAYER
 100
 AcDbSymbolTable
  70
-     3
+     4
   0
 LAYER
   5
@@ -5284,8 +5280,6 @@ Continuous
 F
 347
 3E
-348
-0
   0
 LAYER
   5
@@ -5297,13 +5291,11 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-INIT_COORD
+415_T
  70
-     0
+     4
  62
-    18
-420
-        0
+     4
   6
 Continuous
 370
@@ -5312,8 +5304,6 @@ Continuous
 F
 347
 3E
-348
-0
   0
 LAYER
   5
@@ -5325,11 +5315,11 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-415_T
+INIT_COORD
  70
      0
  62
-     4
+     5
   6
 Continuous
 370
@@ -5338,8 +5328,30 @@ Continuous
 F
 347
 3E
-348
-0
+  0
+LAYER
+  5
+164
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+GEOFENCE
+ 70
+     4
+ 62
+     3
+  6
+Continuous
+370
+     0
+390
+F
+347
+3E
   0
 ENDTAB
   0
@@ -5399,7 +5411,7 @@ AcDbSymbolTable
   0
 VIEW
   5
-164
+165
 330
 6
 100
@@ -5507,7 +5519,7 @@ TCAD
   0
 APPID
   5
-168
+169
 330
 9
 100
@@ -5549,7 +5561,7 @@ Standard
  70
      0
   4
-^B2147483648l^B
+^B2147483648l^B^B2147483648l^B^B2147483648l^B
  41
 0.25
  43
@@ -5599,7 +5611,7 @@ Standard
   0
 DIMSTYLE
 105
-165
+166
 330
 A
 100
@@ -5611,7 +5623,7 @@ ISO-25
  70
      0
   4
-^B2147483648l^B^B2147483648l^B
+뎠甈鐔^X뎿甈
  41
 2.5
  42
@@ -5683,7 +5695,7 @@ BLOCK_RECORD
 102
 {ACAD_XDICTIONARY
 360
-169
+16A
 102
 }
 330
@@ -5859,7 +5871,7 @@ AcDbBlockBegin
   0
 VIEWPORT
   5
-3B8
+3D9
 330
 151
 100
@@ -5869,13 +5881,13 @@ AcDbEntity
 100
 AcDbViewport
  10
-496673.9664465922
+496551.8820012527
  20
-4227018.990746893
+4227036.043772928
  30
 0.0
  40
-582.9641121226596
+582.9641121227178
  41
 457.2690000003204
  68
@@ -5883,9 +5895,9 @@ AcDbViewport
  69
      1
  12
-496673.9664465922
+496551.8820012527
  22
-4227018.990746893
+4227036.043772928
  13
 0.0
  23
@@ -5993,7 +6005,7 @@ ENTITIES
   0
 POINT
   5
-177
+178
 330
 1F
 100
@@ -6008,26 +6020,6 @@ AcDbPoint
 516770.944
  20
 4400477.256
- 30
-416.0
-  0
-POINT
-  5
-178
-330
-1F
-100
-AcDbEntity
-  8
-415_T
-  6
-Continuous
-100
-AcDbPoint
- 10
-516769.287
- 20
-4400480.9975
  30
 416.0
   0
@@ -6045,6 +6037,26 @@ Continuous
 100
 AcDbPoint
  10
+516769.287
+ 20
+4400480.9975
+ 30
+416.0
+  0
+POINT
+  5
+17A
+330
+1F
+100
+AcDbEntity
+  8
+415_T
+  6
+Continuous
+100
+AcDbPoint
+ 10
 516771.3693
  20
 4400481.0015
@@ -6053,7 +6065,7 @@ AcDbPoint
   0
 POINT
   5
-17A
+17B
 330
 1F
 100
@@ -6073,7 +6085,7 @@ AcDbPoint
   0
 POINT
   5
-17B
+17C
 330
 1F
 100
@@ -6093,7 +6105,7 @@ AcDbPoint
   0
 POINT
   5
-17C
+17D
 330
 1F
 100
@@ -6113,7 +6125,7 @@ AcDbPoint
   0
 POINT
   5
-17D
+17E
 330
 1F
 100
@@ -6133,7 +6145,7 @@ AcDbPoint
   0
 POINT
   5
-17E
+17F
 330
 1F
 100
@@ -6153,7 +6165,7 @@ AcDbPoint
   0
 POINT
   5
-17F
+180
 330
 1F
 100
@@ -6173,7 +6185,7 @@ AcDbPoint
   0
 POINT
   5
-180
+181
 330
 1F
 100
@@ -6193,7 +6205,7 @@ AcDbPoint
   0
 POINT
   5
-181
+182
 330
 1F
 100
@@ -6213,7 +6225,7 @@ AcDbPoint
   0
 POINT
   5
-182
+183
 330
 1F
 100
@@ -6233,7 +6245,7 @@ AcDbPoint
   0
 POINT
   5
-183
+184
 330
 1F
 100
@@ -6253,7 +6265,7 @@ AcDbPoint
   0
 POINT
   5
-184
+185
 330
 1F
 100
@@ -6273,7 +6285,7 @@ AcDbPoint
   0
 POINT
   5
-185
+186
 330
 1F
 100
@@ -6293,7 +6305,7 @@ AcDbPoint
   0
 POINT
   5
-186
+187
 330
 1F
 100
@@ -6313,7 +6325,7 @@ AcDbPoint
   0
 POINT
   5
-187
+188
 330
 1F
 100
@@ -6333,7 +6345,7 @@ AcDbPoint
   0
 POINT
   5
-188
+189
 330
 1F
 100
@@ -6353,7 +6365,7 @@ AcDbPoint
   0
 POINT
   5
-189
+18A
 330
 1F
 100
@@ -6373,7 +6385,7 @@ AcDbPoint
   0
 POINT
   5
-18A
+18B
 330
 1F
 100
@@ -6393,7 +6405,7 @@ AcDbPoint
   0
 POINT
   5
-18B
+18C
 330
 1F
 100
@@ -6413,7 +6425,7 @@ AcDbPoint
   0
 POINT
   5
-18C
+18D
 330
 1F
 100
@@ -6433,7 +6445,7 @@ AcDbPoint
   0
 POINT
   5
-18D
+18E
 330
 1F
 100
@@ -6453,7 +6465,7 @@ AcDbPoint
   0
 POINT
   5
-18E
+18F
 330
 1F
 100
@@ -6473,7 +6485,7 @@ AcDbPoint
   0
 POINT
   5
-18F
+190
 330
 1F
 100
@@ -6493,7 +6505,7 @@ AcDbPoint
   0
 POINT
   5
-190
+191
 330
 1F
 100
@@ -6513,7 +6525,7 @@ AcDbPoint
   0
 POINT
   5
-191
+192
 330
 1F
 100
@@ -6533,7 +6545,7 @@ AcDbPoint
   0
 POINT
   5
-192
+193
 330
 1F
 100
@@ -6553,7 +6565,7 @@ AcDbPoint
   0
 POINT
   5
-193
+194
 330
 1F
 100
@@ -6573,7 +6585,7 @@ AcDbPoint
   0
 POINT
   5
-194
+195
 330
 1F
 100
@@ -6593,7 +6605,7 @@ AcDbPoint
   0
 POINT
   5
-195
+196
 330
 1F
 100
@@ -6613,7 +6625,7 @@ AcDbPoint
   0
 POINT
   5
-196
+197
 330
 1F
 100
@@ -6633,7 +6645,7 @@ AcDbPoint
   0
 POINT
   5
-197
+198
 330
 1F
 100
@@ -6653,7 +6665,7 @@ AcDbPoint
   0
 POINT
   5
-198
+199
 330
 1F
 100
@@ -6673,7 +6685,7 @@ AcDbPoint
   0
 POINT
   5
-199
+19A
 330
 1F
 100
@@ -6693,7 +6705,7 @@ AcDbPoint
   0
 POINT
   5
-19A
+19B
 330
 1F
 100
@@ -6713,7 +6725,7 @@ AcDbPoint
   0
 POINT
   5
-19B
+19C
 330
 1F
 100
@@ -6733,7 +6745,7 @@ AcDbPoint
   0
 POINT
   5
-19C
+19D
 330
 1F
 100
@@ -6753,7 +6765,7 @@ AcDbPoint
   0
 POINT
   5
-19D
+19E
 330
 1F
 100
@@ -6773,7 +6785,7 @@ AcDbPoint
   0
 POINT
   5
-19E
+19F
 330
 1F
 100
@@ -6793,7 +6805,7 @@ AcDbPoint
   0
 POINT
   5
-19F
+1A0
 330
 1F
 100
@@ -6813,7 +6825,7 @@ AcDbPoint
   0
 POINT
   5
-1A0
+1A1
 330
 1F
 100
@@ -6833,7 +6845,7 @@ AcDbPoint
   0
 POINT
   5
-1A1
+1A2
 330
 1F
 100
@@ -6853,7 +6865,7 @@ AcDbPoint
   0
 POINT
   5
-1A2
+1A3
 330
 1F
 100
@@ -6873,7 +6885,7 @@ AcDbPoint
   0
 POINT
   5
-1A3
+1A4
 330
 1F
 100
@@ -6893,7 +6905,7 @@ AcDbPoint
   0
 POINT
   5
-1A4
+1A5
 330
 1F
 100
@@ -6913,7 +6925,7 @@ AcDbPoint
   0
 POINT
   5
-1A5
+1A6
 330
 1F
 100
@@ -6933,7 +6945,7 @@ AcDbPoint
   0
 POINT
   5
-1A6
+1A7
 330
 1F
 100
@@ -6953,7 +6965,7 @@ AcDbPoint
   0
 POINT
   5
-1A7
+1A8
 330
 1F
 100
@@ -6973,7 +6985,7 @@ AcDbPoint
   0
 POINT
   5
-1A8
+1A9
 330
 1F
 100
@@ -6993,7 +7005,7 @@ AcDbPoint
   0
 POINT
   5
-1A9
+1AA
 330
 1F
 100
@@ -7013,7 +7025,7 @@ AcDbPoint
   0
 POINT
   5
-1AA
+1AB
 330
 1F
 100
@@ -7033,7 +7045,7 @@ AcDbPoint
   0
 POINT
   5
-1AB
+1AC
 330
 1F
 100
@@ -7053,7 +7065,7 @@ AcDbPoint
   0
 POINT
   5
-1AC
+1AD
 330
 1F
 100
@@ -7073,7 +7085,7 @@ AcDbPoint
   0
 POINT
   5
-1AD
+1AE
 330
 1F
 100
@@ -7093,7 +7105,7 @@ AcDbPoint
   0
 POINT
   5
-1AE
+1AF
 330
 1F
 100
@@ -7113,7 +7125,7 @@ AcDbPoint
   0
 POINT
   5
-1AF
+1B0
 330
 1F
 100
@@ -7133,7 +7145,7 @@ AcDbPoint
   0
 POINT
   5
-1B0
+1B1
 330
 1F
 100
@@ -7153,7 +7165,7 @@ AcDbPoint
   0
 POINT
   5
-1B1
+1B2
 330
 1F
 100
@@ -7173,7 +7185,7 @@ AcDbPoint
   0
 POINT
   5
-1B2
+1B3
 330
 1F
 100
@@ -7193,7 +7205,7 @@ AcDbPoint
   0
 POINT
   5
-1B3
+1B4
 330
 1F
 100
@@ -7213,7 +7225,7 @@ AcDbPoint
   0
 POINT
   5
-1B4
+1B5
 330
 1F
 100
@@ -7233,7 +7245,7 @@ AcDbPoint
   0
 POINT
   5
-1B5
+1B6
 330
 1F
 100
@@ -7253,7 +7265,7 @@ AcDbPoint
   0
 POINT
   5
-1B6
+1B7
 330
 1F
 100
@@ -7273,7 +7285,7 @@ AcDbPoint
   0
 POINT
   5
-1B7
+1B8
 330
 1F
 100
@@ -7293,7 +7305,7 @@ AcDbPoint
   0
 POINT
   5
-1B8
+1B9
 330
 1F
 100
@@ -7313,7 +7325,7 @@ AcDbPoint
   0
 POINT
   5
-1B9
+1BA
 330
 1F
 100
@@ -7333,7 +7345,7 @@ AcDbPoint
   0
 POINT
   5
-1BA
+1BB
 330
 1F
 100
@@ -7353,7 +7365,7 @@ AcDbPoint
   0
 POINT
   5
-1BB
+1BC
 330
 1F
 100
@@ -7373,7 +7385,7 @@ AcDbPoint
   0
 POINT
   5
-1BC
+1BD
 330
 1F
 100
@@ -7393,7 +7405,7 @@ AcDbPoint
   0
 POINT
   5
-1BD
+1BE
 330
 1F
 100
@@ -7413,7 +7425,7 @@ AcDbPoint
   0
 POINT
   5
-1BE
+1BF
 330
 1F
 100
@@ -7433,7 +7445,7 @@ AcDbPoint
   0
 POINT
   5
-1BF
+1C0
 330
 1F
 100
@@ -7453,7 +7465,7 @@ AcDbPoint
   0
 POINT
   5
-1C0
+1C1
 330
 1F
 100
@@ -7473,7 +7485,7 @@ AcDbPoint
   0
 POINT
   5
-1C1
+1C2
 330
 1F
 100
@@ -7493,7 +7505,7 @@ AcDbPoint
   0
 POINT
   5
-1C2
+1C3
 330
 1F
 100
@@ -7513,7 +7525,7 @@ AcDbPoint
   0
 POINT
   5
-1C3
+1C4
 330
 1F
 100
@@ -7533,7 +7545,7 @@ AcDbPoint
   0
 POINT
   5
-1C4
+1C5
 330
 1F
 100
@@ -7553,7 +7565,7 @@ AcDbPoint
   0
 POINT
   5
-1C5
+1C6
 330
 1F
 100
@@ -7573,7 +7585,7 @@ AcDbPoint
   0
 POINT
   5
-1C6
+1C7
 330
 1F
 100
@@ -7593,7 +7605,7 @@ AcDbPoint
   0
 POINT
   5
-1C7
+1C8
 330
 1F
 100
@@ -7613,7 +7625,7 @@ AcDbPoint
   0
 POINT
   5
-1C8
+1C9
 330
 1F
 100
@@ -7633,7 +7645,7 @@ AcDbPoint
   0
 POINT
   5
-1C9
+1CA
 330
 1F
 100
@@ -7653,7 +7665,7 @@ AcDbPoint
   0
 POINT
   5
-1CA
+1CB
 330
 1F
 100
@@ -7673,7 +7685,7 @@ AcDbPoint
   0
 POINT
   5
-1CB
+1CC
 330
 1F
 100
@@ -7693,7 +7705,7 @@ AcDbPoint
   0
 POINT
   5
-1CC
+1CD
 330
 1F
 100
@@ -7713,7 +7725,7 @@ AcDbPoint
   0
 POINT
   5
-1CD
+1CE
 330
 1F
 100
@@ -7733,7 +7745,7 @@ AcDbPoint
   0
 POINT
   5
-1CE
+1CF
 330
 1F
 100
@@ -7753,7 +7765,7 @@ AcDbPoint
   0
 POINT
   5
-1CF
+1D0
 330
 1F
 100
@@ -7773,7 +7785,7 @@ AcDbPoint
   0
 POINT
   5
-1D0
+1D1
 330
 1F
 100
@@ -7793,7 +7805,7 @@ AcDbPoint
   0
 POINT
   5
-1D1
+1D2
 330
 1F
 100
@@ -7813,7 +7825,7 @@ AcDbPoint
   0
 POINT
   5
-1D2
+1D3
 330
 1F
 100
@@ -7833,7 +7845,7 @@ AcDbPoint
   0
 POINT
   5
-1D3
+1D4
 330
 1F
 100
@@ -7853,7 +7865,7 @@ AcDbPoint
   0
 POINT
   5
-1D4
+1D5
 330
 1F
 100
@@ -7873,7 +7885,7 @@ AcDbPoint
   0
 POINT
   5
-1D5
+1D6
 330
 1F
 100
@@ -7893,7 +7905,7 @@ AcDbPoint
   0
 POINT
   5
-1D6
+1D7
 330
 1F
 100
@@ -7913,7 +7925,7 @@ AcDbPoint
   0
 POINT
   5
-1D7
+1D8
 330
 1F
 100
@@ -7933,7 +7945,7 @@ AcDbPoint
   0
 POINT
   5
-1D8
+1D9
 330
 1F
 100
@@ -7953,7 +7965,7 @@ AcDbPoint
   0
 POINT
   5
-1D9
+1DA
 330
 1F
 100
@@ -7973,7 +7985,7 @@ AcDbPoint
   0
 POINT
   5
-1DA
+1DB
 330
 1F
 100
@@ -7993,7 +8005,7 @@ AcDbPoint
   0
 POINT
   5
-1DB
+1DC
 330
 1F
 100
@@ -8013,7 +8025,7 @@ AcDbPoint
   0
 POINT
   5
-1DC
+1DD
 330
 1F
 100
@@ -8033,7 +8045,7 @@ AcDbPoint
   0
 POINT
   5
-1DD
+1DE
 330
 1F
 100
@@ -8053,7 +8065,7 @@ AcDbPoint
   0
 POINT
   5
-1DE
+1DF
 330
 1F
 100
@@ -8073,7 +8085,7 @@ AcDbPoint
   0
 POINT
   5
-1DF
+1E0
 330
 1F
 100
@@ -8093,7 +8105,7 @@ AcDbPoint
   0
 POINT
   5
-1E0
+1E1
 330
 1F
 100
@@ -8113,7 +8125,7 @@ AcDbPoint
   0
 POINT
   5
-1E1
+1E2
 330
 1F
 100
@@ -8133,7 +8145,7 @@ AcDbPoint
   0
 POINT
   5
-1E2
+1E3
 330
 1F
 100
@@ -8153,7 +8165,7 @@ AcDbPoint
   0
 POINT
   5
-1E3
+1E4
 330
 1F
 100
@@ -8173,7 +8185,7 @@ AcDbPoint
   0
 POINT
   5
-1E4
+1E5
 330
 1F
 100
@@ -8193,7 +8205,7 @@ AcDbPoint
   0
 POINT
   5
-1E5
+1E6
 330
 1F
 100
@@ -8213,7 +8225,7 @@ AcDbPoint
   0
 POINT
   5
-1E6
+1E7
 330
 1F
 100
@@ -8233,7 +8245,7 @@ AcDbPoint
   0
 POINT
   5
-1E7
+1E8
 330
 1F
 100
@@ -8253,7 +8265,7 @@ AcDbPoint
   0
 POINT
   5
-1E8
+1E9
 330
 1F
 100
@@ -8273,7 +8285,7 @@ AcDbPoint
   0
 POINT
   5
-1E9
+1EA
 330
 1F
 100
@@ -8293,7 +8305,7 @@ AcDbPoint
   0
 POINT
   5
-1EA
+1EB
 330
 1F
 100
@@ -8313,7 +8325,7 @@ AcDbPoint
   0
 POINT
   5
-1EB
+1EC
 330
 1F
 100
@@ -8333,7 +8345,7 @@ AcDbPoint
   0
 POINT
   5
-1EC
+1ED
 330
 1F
 100
@@ -8353,7 +8365,7 @@ AcDbPoint
   0
 POINT
   5
-1ED
+1EE
 330
 1F
 100
@@ -8373,7 +8385,7 @@ AcDbPoint
   0
 POINT
   5
-1EE
+1EF
 330
 1F
 100
@@ -8393,7 +8405,7 @@ AcDbPoint
   0
 POINT
   5
-1EF
+1F0
 330
 1F
 100
@@ -8413,7 +8425,7 @@ AcDbPoint
   0
 POINT
   5
-1F0
+1F1
 330
 1F
 100
@@ -8433,7 +8445,7 @@ AcDbPoint
   0
 POINT
   5
-1F1
+1F2
 330
 1F
 100
@@ -8453,7 +8465,7 @@ AcDbPoint
   0
 POINT
   5
-1F2
+1F3
 330
 1F
 100
@@ -8473,7 +8485,7 @@ AcDbPoint
   0
 POINT
   5
-1F3
+1F4
 330
 1F
 100
@@ -8493,7 +8505,7 @@ AcDbPoint
   0
 POINT
   5
-1F4
+1F5
 330
 1F
 100
@@ -8513,7 +8525,7 @@ AcDbPoint
   0
 POINT
   5
-1F5
+1F6
 330
 1F
 100
@@ -8533,7 +8545,7 @@ AcDbPoint
   0
 POINT
   5
-1F6
+1F7
 330
 1F
 100
@@ -8553,7 +8565,7 @@ AcDbPoint
   0
 POINT
   5
-1F7
+1F8
 330
 1F
 100
@@ -8573,7 +8585,7 @@ AcDbPoint
   0
 POINT
   5
-1F8
+1F9
 330
 1F
 100
@@ -8593,7 +8605,7 @@ AcDbPoint
   0
 POINT
   5
-1F9
+1FA
 330
 1F
 100
@@ -8613,7 +8625,7 @@ AcDbPoint
   0
 POINT
   5
-1FA
+1FB
 330
 1F
 100
@@ -8633,7 +8645,7 @@ AcDbPoint
   0
 POINT
   5
-1FB
+1FC
 330
 1F
 100
@@ -8653,7 +8665,7 @@ AcDbPoint
   0
 POINT
   5
-1FC
+1FD
 330
 1F
 100
@@ -8673,7 +8685,7 @@ AcDbPoint
   0
 POINT
   5
-1FD
+1FE
 330
 1F
 100
@@ -8693,7 +8705,7 @@ AcDbPoint
   0
 POINT
   5
-1FE
+1FF
 330
 1F
 100
@@ -8713,7 +8725,7 @@ AcDbPoint
   0
 POINT
   5
-1FF
+200
 330
 1F
 100
@@ -8733,7 +8745,7 @@ AcDbPoint
   0
 POINT
   5
-200
+201
 330
 1F
 100
@@ -8753,7 +8765,7 @@ AcDbPoint
   0
 POINT
   5
-201
+202
 330
 1F
 100
@@ -8773,7 +8785,7 @@ AcDbPoint
   0
 POINT
   5
-202
+203
 330
 1F
 100
@@ -8793,7 +8805,7 @@ AcDbPoint
   0
 POINT
   5
-203
+204
 330
 1F
 100
@@ -8813,7 +8825,7 @@ AcDbPoint
   0
 POINT
   5
-204
+205
 330
 1F
 100
@@ -8833,7 +8845,7 @@ AcDbPoint
   0
 POINT
   5
-205
+206
 330
 1F
 100
@@ -8853,7 +8865,7 @@ AcDbPoint
   0
 POINT
   5
-206
+207
 330
 1F
 100
@@ -8873,7 +8885,7 @@ AcDbPoint
   0
 POINT
   5
-207
+208
 330
 1F
 100
@@ -8893,7 +8905,7 @@ AcDbPoint
   0
 POINT
   5
-208
+209
 330
 1F
 100
@@ -8913,7 +8925,7 @@ AcDbPoint
   0
 POINT
   5
-209
+20A
 330
 1F
 100
@@ -8933,7 +8945,7 @@ AcDbPoint
   0
 POINT
   5
-20A
+20B
 330
 1F
 100
@@ -8953,7 +8965,7 @@ AcDbPoint
   0
 POINT
   5
-20B
+20C
 330
 1F
 100
@@ -8973,7 +8985,7 @@ AcDbPoint
   0
 POINT
   5
-20C
+20D
 330
 1F
 100
@@ -8993,7 +9005,7 @@ AcDbPoint
   0
 POINT
   5
-20D
+20E
 330
 1F
 100
@@ -9013,7 +9025,7 @@ AcDbPoint
   0
 POINT
   5
-20E
+20F
 330
 1F
 100
@@ -9033,7 +9045,7 @@ AcDbPoint
   0
 POINT
   5
-20F
+210
 330
 1F
 100
@@ -9053,7 +9065,7 @@ AcDbPoint
   0
 POINT
   5
-210
+211
 330
 1F
 100
@@ -9073,7 +9085,7 @@ AcDbPoint
   0
 POINT
   5
-211
+212
 330
 1F
 100
@@ -9093,7 +9105,7 @@ AcDbPoint
   0
 POINT
   5
-212
+213
 330
 1F
 100
@@ -9113,7 +9125,7 @@ AcDbPoint
   0
 POINT
   5
-213
+214
 330
 1F
 100
@@ -9133,7 +9145,7 @@ AcDbPoint
   0
 POINT
   5
-214
+215
 330
 1F
 100
@@ -9153,7 +9165,7 @@ AcDbPoint
   0
 POINT
   5
-215
+216
 330
 1F
 100
@@ -9173,7 +9185,7 @@ AcDbPoint
   0
 POINT
   5
-216
+217
 330
 1F
 100
@@ -9193,7 +9205,7 @@ AcDbPoint
   0
 POINT
   5
-217
+218
 330
 1F
 100
@@ -9213,7 +9225,7 @@ AcDbPoint
   0
 POINT
   5
-218
+219
 330
 1F
 100
@@ -9233,7 +9245,7 @@ AcDbPoint
   0
 POINT
   5
-219
+21A
 330
 1F
 100
@@ -9253,7 +9265,7 @@ AcDbPoint
   0
 POINT
   5
-21A
+21B
 330
 1F
 100
@@ -9273,7 +9285,7 @@ AcDbPoint
   0
 POINT
   5
-21B
+21C
 330
 1F
 100
@@ -9293,7 +9305,7 @@ AcDbPoint
   0
 POINT
   5
-21C
+21D
 330
 1F
 100
@@ -9313,7 +9325,7 @@ AcDbPoint
   0
 POINT
   5
-21D
+21E
 330
 1F
 100
@@ -9333,7 +9345,7 @@ AcDbPoint
   0
 POINT
   5
-21E
+21F
 330
 1F
 100
@@ -9353,7 +9365,7 @@ AcDbPoint
   0
 POINT
   5
-21F
+220
 330
 1F
 100
@@ -9373,7 +9385,7 @@ AcDbPoint
   0
 POINT
   5
-220
+221
 330
 1F
 100
@@ -9393,7 +9405,7 @@ AcDbPoint
   0
 POINT
   5
-221
+222
 330
 1F
 100
@@ -9413,7 +9425,7 @@ AcDbPoint
   0
 POINT
   5
-222
+223
 330
 1F
 100
@@ -9433,7 +9445,7 @@ AcDbPoint
   0
 POINT
   5
-223
+224
 330
 1F
 100
@@ -9453,7 +9465,7 @@ AcDbPoint
   0
 POINT
   5
-224
+225
 330
 1F
 100
@@ -9473,7 +9485,7 @@ AcDbPoint
   0
 POINT
   5
-225
+226
 330
 1F
 100
@@ -9493,7 +9505,7 @@ AcDbPoint
   0
 POINT
   5
-226
+227
 330
 1F
 100
@@ -9513,7 +9525,7 @@ AcDbPoint
   0
 POINT
   5
-227
+228
 330
 1F
 100
@@ -9533,7 +9545,7 @@ AcDbPoint
   0
 POINT
   5
-228
+229
 330
 1F
 100
@@ -9553,7 +9565,7 @@ AcDbPoint
   0
 POINT
   5
-229
+22A
 330
 1F
 100
@@ -9573,7 +9585,7 @@ AcDbPoint
   0
 POINT
   5
-22A
+22B
 330
 1F
 100
@@ -9593,7 +9605,7 @@ AcDbPoint
   0
 POINT
   5
-22B
+22C
 330
 1F
 100
@@ -9613,7 +9625,7 @@ AcDbPoint
   0
 POINT
   5
-22C
+22D
 330
 1F
 100
@@ -9633,7 +9645,7 @@ AcDbPoint
   0
 POINT
   5
-22D
+22E
 330
 1F
 100
@@ -9653,7 +9665,7 @@ AcDbPoint
   0
 POINT
   5
-22E
+22F
 330
 1F
 100
@@ -9673,7 +9685,7 @@ AcDbPoint
   0
 POINT
   5
-22F
+230
 330
 1F
 100
@@ -9693,7 +9705,7 @@ AcDbPoint
   0
 POINT
   5
-230
+231
 330
 1F
 100
@@ -9713,7 +9725,7 @@ AcDbPoint
   0
 POINT
   5
-231
+232
 330
 1F
 100
@@ -9733,7 +9745,7 @@ AcDbPoint
   0
 POINT
   5
-232
+233
 330
 1F
 100
@@ -9753,7 +9765,7 @@ AcDbPoint
   0
 POINT
   5
-233
+234
 330
 1F
 100
@@ -9773,7 +9785,7 @@ AcDbPoint
   0
 POINT
   5
-234
+235
 330
 1F
 100
@@ -9793,7 +9805,7 @@ AcDbPoint
   0
 POINT
   5
-235
+236
 330
 1F
 100
@@ -9813,7 +9825,7 @@ AcDbPoint
   0
 POINT
   5
-236
+237
 330
 1F
 100
@@ -9833,7 +9845,7 @@ AcDbPoint
   0
 POINT
   5
-237
+238
 330
 1F
 100
@@ -9853,7 +9865,7 @@ AcDbPoint
   0
 POINT
   5
-238
+239
 330
 1F
 100
@@ -9873,7 +9885,7 @@ AcDbPoint
   0
 POINT
   5
-239
+23A
 330
 1F
 100
@@ -9893,7 +9905,7 @@ AcDbPoint
   0
 POINT
   5
-23A
+23B
 330
 1F
 100
@@ -9913,7 +9925,7 @@ AcDbPoint
   0
 POINT
   5
-23B
+23C
 330
 1F
 100
@@ -9933,7 +9945,7 @@ AcDbPoint
   0
 POINT
   5
-23C
+23D
 330
 1F
 100
@@ -9953,7 +9965,7 @@ AcDbPoint
   0
 POINT
   5
-23D
+23E
 330
 1F
 100
@@ -9973,7 +9985,7 @@ AcDbPoint
   0
 POINT
   5
-23E
+23F
 330
 1F
 100
@@ -9993,7 +10005,7 @@ AcDbPoint
   0
 POINT
   5
-23F
+240
 330
 1F
 100
@@ -10013,7 +10025,7 @@ AcDbPoint
   0
 POINT
   5
-240
+241
 330
 1F
 100
@@ -10033,7 +10045,7 @@ AcDbPoint
   0
 POINT
   5
-241
+242
 330
 1F
 100
@@ -10053,7 +10065,7 @@ AcDbPoint
   0
 POINT
   5
-242
+243
 330
 1F
 100
@@ -10073,7 +10085,7 @@ AcDbPoint
   0
 POINT
   5
-243
+244
 330
 1F
 100
@@ -10093,7 +10105,7 @@ AcDbPoint
   0
 POINT
   5
-244
+245
 330
 1F
 100
@@ -10113,7 +10125,7 @@ AcDbPoint
   0
 POINT
   5
-245
+246
 330
 1F
 100
@@ -10133,7 +10145,7 @@ AcDbPoint
   0
 POINT
   5
-246
+247
 330
 1F
 100
@@ -10153,7 +10165,7 @@ AcDbPoint
   0
 POINT
   5
-247
+248
 330
 1F
 100
@@ -10173,7 +10185,7 @@ AcDbPoint
   0
 POINT
   5
-248
+249
 330
 1F
 100
@@ -10193,7 +10205,7 @@ AcDbPoint
   0
 POINT
   5
-249
+24A
 330
 1F
 100
@@ -10213,7 +10225,7 @@ AcDbPoint
   0
 POINT
   5
-24A
+24B
 330
 1F
 100
@@ -10233,7 +10245,7 @@ AcDbPoint
   0
 POINT
   5
-24B
+24C
 330
 1F
 100
@@ -10253,7 +10265,7 @@ AcDbPoint
   0
 POINT
   5
-24C
+24D
 330
 1F
 100
@@ -10273,7 +10285,7 @@ AcDbPoint
   0
 POINT
   5
-24D
+24E
 330
 1F
 100
@@ -10293,7 +10305,7 @@ AcDbPoint
   0
 POINT
   5
-24E
+24F
 330
 1F
 100
@@ -10313,7 +10325,7 @@ AcDbPoint
   0
 POINT
   5
-24F
+250
 330
 1F
 100
@@ -10333,7 +10345,7 @@ AcDbPoint
   0
 POINT
   5
-250
+251
 330
 1F
 100
@@ -10353,7 +10365,7 @@ AcDbPoint
   0
 POINT
   5
-251
+252
 330
 1F
 100
@@ -10373,7 +10385,7 @@ AcDbPoint
   0
 POINT
   5
-252
+253
 330
 1F
 100
@@ -10393,7 +10405,7 @@ AcDbPoint
   0
 POINT
   5
-253
+254
 330
 1F
 100
@@ -10413,7 +10425,7 @@ AcDbPoint
   0
 POINT
   5
-254
+255
 330
 1F
 100
@@ -10433,7 +10445,7 @@ AcDbPoint
   0
 POINT
   5
-255
+256
 330
 1F
 100
@@ -10453,7 +10465,7 @@ AcDbPoint
   0
 POINT
   5
-256
+257
 330
 1F
 100
@@ -10473,7 +10485,7 @@ AcDbPoint
   0
 POINT
   5
-257
+258
 330
 1F
 100
@@ -10493,7 +10505,7 @@ AcDbPoint
   0
 POINT
   5
-258
+259
 330
 1F
 100
@@ -10513,7 +10525,7 @@ AcDbPoint
   0
 POINT
   5
-259
+25A
 330
 1F
 100
@@ -10533,7 +10545,7 @@ AcDbPoint
   0
 POINT
   5
-25A
+25B
 330
 1F
 100
@@ -10553,7 +10565,7 @@ AcDbPoint
   0
 POINT
   5
-25B
+25C
 330
 1F
 100
@@ -10573,7 +10585,7 @@ AcDbPoint
   0
 POINT
   5
-25C
+25D
 330
 1F
 100
@@ -10593,7 +10605,7 @@ AcDbPoint
   0
 POINT
   5
-25D
+25E
 330
 1F
 100
@@ -10613,7 +10625,7 @@ AcDbPoint
   0
 POINT
   5
-25E
+25F
 330
 1F
 100
@@ -10633,7 +10645,7 @@ AcDbPoint
   0
 POINT
   5
-25F
+260
 330
 1F
 100
@@ -10653,7 +10665,7 @@ AcDbPoint
   0
 POINT
   5
-260
+261
 330
 1F
 100
@@ -10673,7 +10685,7 @@ AcDbPoint
   0
 POINT
   5
-261
+262
 330
 1F
 100
@@ -10693,7 +10705,7 @@ AcDbPoint
   0
 POINT
   5
-262
+263
 330
 1F
 100
@@ -10713,7 +10725,7 @@ AcDbPoint
   0
 POINT
   5
-263
+264
 330
 1F
 100
@@ -10733,7 +10745,7 @@ AcDbPoint
   0
 POINT
   5
-264
+265
 330
 1F
 100
@@ -10753,7 +10765,7 @@ AcDbPoint
   0
 POINT
   5
-265
+266
 330
 1F
 100
@@ -10773,7 +10785,7 @@ AcDbPoint
   0
 POINT
   5
-266
+267
 330
 1F
 100
@@ -10793,7 +10805,7 @@ AcDbPoint
   0
 POINT
   5
-267
+268
 330
 1F
 100
@@ -10813,7 +10825,7 @@ AcDbPoint
   0
 POINT
   5
-268
+269
 330
 1F
 100
@@ -10833,7 +10845,7 @@ AcDbPoint
   0
 POINT
   5
-269
+26A
 330
 1F
 100
@@ -10853,7 +10865,7 @@ AcDbPoint
   0
 POINT
   5
-26A
+26B
 330
 1F
 100
@@ -10873,7 +10885,7 @@ AcDbPoint
   0
 POINT
   5
-26B
+26C
 330
 1F
 100
@@ -10893,7 +10905,7 @@ AcDbPoint
   0
 POINT
   5
-26C
+26D
 330
 1F
 100
@@ -10913,7 +10925,7 @@ AcDbPoint
   0
 POINT
   5
-26D
+26E
 330
 1F
 100
@@ -10933,7 +10945,7 @@ AcDbPoint
   0
 POINT
   5
-26E
+26F
 330
 1F
 100
@@ -10953,7 +10965,7 @@ AcDbPoint
   0
 POINT
   5
-26F
+270
 330
 1F
 100
@@ -10973,7 +10985,7 @@ AcDbPoint
   0
 POINT
   5
-270
+271
 330
 1F
 100
@@ -10993,7 +11005,7 @@ AcDbPoint
   0
 POINT
   5
-271
+272
 330
 1F
 100
@@ -11013,7 +11025,7 @@ AcDbPoint
   0
 POINT
   5
-272
+273
 330
 1F
 100
@@ -11033,7 +11045,7 @@ AcDbPoint
   0
 POINT
   5
-273
+274
 330
 1F
 100
@@ -11053,7 +11065,7 @@ AcDbPoint
   0
 POINT
   5
-274
+275
 330
 1F
 100
@@ -11073,7 +11085,7 @@ AcDbPoint
   0
 POINT
   5
-275
+276
 330
 1F
 100
@@ -11093,7 +11105,7 @@ AcDbPoint
   0
 POINT
   5
-276
+277
 330
 1F
 100
@@ -11113,7 +11125,7 @@ AcDbPoint
   0
 POINT
   5
-277
+278
 330
 1F
 100
@@ -11133,7 +11145,7 @@ AcDbPoint
   0
 POINT
   5
-278
+279
 330
 1F
 100
@@ -11153,7 +11165,7 @@ AcDbPoint
   0
 POINT
   5
-279
+27A
 330
 1F
 100
@@ -11173,7 +11185,7 @@ AcDbPoint
   0
 POINT
   5
-27A
+27B
 330
 1F
 100
@@ -11193,7 +11205,7 @@ AcDbPoint
   0
 POINT
   5
-27B
+27C
 330
 1F
 100
@@ -11213,7 +11225,7 @@ AcDbPoint
   0
 POINT
   5
-27C
+27D
 330
 1F
 100
@@ -11233,7 +11245,7 @@ AcDbPoint
   0
 POINT
   5
-27D
+27E
 330
 1F
 100
@@ -11253,7 +11265,7 @@ AcDbPoint
   0
 POINT
   5
-27E
+27F
 330
 1F
 100
@@ -11273,7 +11285,7 @@ AcDbPoint
   0
 POINT
   5
-27F
+280
 330
 1F
 100
@@ -11293,7 +11305,7 @@ AcDbPoint
   0
 POINT
   5
-280
+281
 330
 1F
 100
@@ -11313,7 +11325,7 @@ AcDbPoint
   0
 POINT
   5
-281
+282
 330
 1F
 100
@@ -11333,7 +11345,7 @@ AcDbPoint
   0
 POINT
   5
-282
+283
 330
 1F
 100
@@ -11353,7 +11365,7 @@ AcDbPoint
   0
 POINT
   5
-283
+284
 330
 1F
 100
@@ -11373,7 +11385,7 @@ AcDbPoint
   0
 POINT
   5
-284
+285
 330
 1F
 100
@@ -11393,7 +11405,7 @@ AcDbPoint
   0
 POINT
   5
-285
+286
 330
 1F
 100
@@ -11413,7 +11425,7 @@ AcDbPoint
   0
 POINT
   5
-286
+287
 330
 1F
 100
@@ -11433,7 +11445,7 @@ AcDbPoint
   0
 POINT
   5
-287
+288
 330
 1F
 100
@@ -11453,7 +11465,7 @@ AcDbPoint
   0
 POINT
   5
-288
+289
 330
 1F
 100
@@ -11473,7 +11485,7 @@ AcDbPoint
   0
 POINT
   5
-289
+28A
 330
 1F
 100
@@ -11493,7 +11505,7 @@ AcDbPoint
   0
 POINT
   5
-28A
+28B
 330
 1F
 100
@@ -11513,7 +11525,7 @@ AcDbPoint
   0
 POINT
   5
-28B
+28C
 330
 1F
 100
@@ -11533,7 +11545,7 @@ AcDbPoint
   0
 POINT
   5
-28C
+28D
 330
 1F
 100
@@ -11553,7 +11565,7 @@ AcDbPoint
   0
 POINT
   5
-28D
+28E
 330
 1F
 100
@@ -11573,7 +11585,7 @@ AcDbPoint
   0
 POINT
   5
-28E
+28F
 330
 1F
 100
@@ -11593,7 +11605,7 @@ AcDbPoint
   0
 POINT
   5
-28F
+290
 330
 1F
 100
@@ -11613,7 +11625,7 @@ AcDbPoint
   0
 POINT
   5
-290
+291
 330
 1F
 100
@@ -11633,7 +11645,7 @@ AcDbPoint
   0
 POINT
   5
-291
+292
 330
 1F
 100
@@ -11653,7 +11665,7 @@ AcDbPoint
   0
 POINT
   5
-292
+293
 330
 1F
 100
@@ -11673,7 +11685,7 @@ AcDbPoint
   0
 POINT
   5
-293
+294
 330
 1F
 100
@@ -11693,7 +11705,7 @@ AcDbPoint
   0
 POINT
   5
-294
+295
 330
 1F
 100
@@ -11713,7 +11725,7 @@ AcDbPoint
   0
 POINT
   5
-295
+296
 330
 1F
 100
@@ -11733,7 +11745,7 @@ AcDbPoint
   0
 LINE
   5
-296
+297
 330
 1F
 100
@@ -11759,7 +11771,7 @@ AcDbLine
   0
 LINE
   5
-297
+298
 330
 1F
 100
@@ -11785,7 +11797,7 @@ AcDbLine
   0
 LINE
   5
-298
+299
 330
 1F
 100
@@ -11811,7 +11823,7 @@ AcDbLine
   0
 LINE
   5
-299
+29A
 330
 1F
 100
@@ -11837,7 +11849,7 @@ AcDbLine
   0
 LINE
   5
-29A
+29B
 330
 1F
 100
@@ -11863,7 +11875,7 @@ AcDbLine
   0
 LINE
   5
-29B
+29C
 330
 1F
 100
@@ -11889,7 +11901,7 @@ AcDbLine
   0
 LINE
   5
-29C
+29D
 330
 1F
 100
@@ -11915,7 +11927,7 @@ AcDbLine
   0
 LINE
   5
-29D
+29E
 330
 1F
 100
@@ -11941,7 +11953,7 @@ AcDbLine
   0
 LINE
   5
-29E
+29F
 330
 1F
 100
@@ -11967,7 +11979,7 @@ AcDbLine
   0
 LINE
   5
-29F
+2A0
 330
 1F
 100
@@ -11993,7 +12005,7 @@ AcDbLine
   0
 LINE
   5
-2A0
+2A1
 330
 1F
 100
@@ -12019,7 +12031,7 @@ AcDbLine
   0
 LINE
   5
-2A1
+2A2
 330
 1F
 100
@@ -12045,7 +12057,7 @@ AcDbLine
   0
 LINE
   5
-2A2
+2A3
 330
 1F
 100
@@ -12071,7 +12083,7 @@ AcDbLine
   0
 LINE
   5
-2A3
+2A4
 330
 1F
 100
@@ -12097,7 +12109,7 @@ AcDbLine
   0
 LINE
   5
-2A4
+2A5
 330
 1F
 100
@@ -12123,7 +12135,7 @@ AcDbLine
   0
 LINE
   5
-2A5
+2A6
 330
 1F
 100
@@ -12149,7 +12161,7 @@ AcDbLine
   0
 LINE
   5
-2A6
+2A7
 330
 1F
 100
@@ -12175,7 +12187,7 @@ AcDbLine
   0
 LINE
   5
-2A7
+2A8
 330
 1F
 100
@@ -12201,7 +12213,7 @@ AcDbLine
   0
 LINE
   5
-2A8
+2A9
 330
 1F
 100
@@ -12227,7 +12239,7 @@ AcDbLine
   0
 LINE
   5
-2A9
+2AA
 330
 1F
 100
@@ -12253,7 +12265,7 @@ AcDbLine
   0
 LINE
   5
-2AA
+2AB
 330
 1F
 100
@@ -12279,7 +12291,7 @@ AcDbLine
   0
 LINE
   5
-2AB
+2AC
 330
 1F
 100
@@ -12305,7 +12317,7 @@ AcDbLine
   0
 LINE
   5
-2AC
+2AD
 330
 1F
 100
@@ -12331,7 +12343,7 @@ AcDbLine
   0
 LINE
   5
-2AD
+2AE
 330
 1F
 100
@@ -12357,7 +12369,7 @@ AcDbLine
   0
 LINE
   5
-2AE
+2AF
 330
 1F
 100
@@ -12383,7 +12395,7 @@ AcDbLine
   0
 LINE
   5
-2AF
+2B0
 330
 1F
 100
@@ -12409,7 +12421,7 @@ AcDbLine
   0
 LINE
   5
-2B0
+2B1
 330
 1F
 100
@@ -12435,7 +12447,7 @@ AcDbLine
   0
 LINE
   5
-2B1
+2B2
 330
 1F
 100
@@ -12461,7 +12473,7 @@ AcDbLine
   0
 LINE
   5
-2B2
+2B3
 330
 1F
 100
@@ -12487,7 +12499,7 @@ AcDbLine
   0
 LINE
   5
-2B3
+2B4
 330
 1F
 100
@@ -12513,7 +12525,7 @@ AcDbLine
   0
 LINE
   5
-2B4
+2B5
 330
 1F
 100
@@ -12539,7 +12551,7 @@ AcDbLine
   0
 LINE
   5
-2B5
+2B6
 330
 1F
 100
@@ -12565,7 +12577,7 @@ AcDbLine
   0
 LINE
   5
-2B6
+2B7
 330
 1F
 100
@@ -12591,7 +12603,7 @@ AcDbLine
   0
 LINE
   5
-2B7
+2B8
 330
 1F
 100
@@ -12617,7 +12629,7 @@ AcDbLine
   0
 LINE
   5
-2B8
+2B9
 330
 1F
 100
@@ -12643,7 +12655,7 @@ AcDbLine
   0
 LINE
   5
-2B9
+2BA
 330
 1F
 100
@@ -12669,7 +12681,7 @@ AcDbLine
   0
 LINE
   5
-2BA
+2BB
 330
 1F
 100
@@ -12695,7 +12707,7 @@ AcDbLine
   0
 LINE
   5
-2BB
+2BC
 330
 1F
 100
@@ -12721,7 +12733,7 @@ AcDbLine
   0
 LINE
   5
-2BC
+2BD
 330
 1F
 100
@@ -12747,7 +12759,7 @@ AcDbLine
   0
 LINE
   5
-2BD
+2BE
 330
 1F
 100
@@ -12773,7 +12785,7 @@ AcDbLine
   0
 LINE
   5
-2BE
+2BF
 330
 1F
 100
@@ -12799,7 +12811,7 @@ AcDbLine
   0
 LINE
   5
-2BF
+2C0
 330
 1F
 100
@@ -12825,7 +12837,7 @@ AcDbLine
   0
 LINE
   5
-2C0
+2C1
 330
 1F
 100
@@ -12851,7 +12863,7 @@ AcDbLine
   0
 LINE
   5
-2C1
+2C2
 330
 1F
 100
@@ -12877,7 +12889,7 @@ AcDbLine
   0
 LINE
   5
-2C2
+2C3
 330
 1F
 100
@@ -12903,7 +12915,7 @@ AcDbLine
   0
 LINE
   5
-2C3
+2C4
 330
 1F
 100
@@ -12929,7 +12941,7 @@ AcDbLine
   0
 LINE
   5
-2C4
+2C5
 330
 1F
 100
@@ -12955,7 +12967,7 @@ AcDbLine
   0
 LINE
   5
-2C5
+2C6
 330
 1F
 100
@@ -12981,7 +12993,7 @@ AcDbLine
   0
 LINE
   5
-2C6
+2C7
 330
 1F
 100
@@ -13007,7 +13019,7 @@ AcDbLine
   0
 LINE
   5
-2C7
+2C8
 330
 1F
 100
@@ -13033,7 +13045,7 @@ AcDbLine
   0
 LINE
   5
-2C8
+2C9
 330
 1F
 100
@@ -13059,7 +13071,7 @@ AcDbLine
   0
 LINE
   5
-2C9
+2CA
 330
 1F
 100
@@ -13085,7 +13097,7 @@ AcDbLine
   0
 LINE
   5
-2CA
+2CB
 330
 1F
 100
@@ -13111,7 +13123,7 @@ AcDbLine
   0
 LINE
   5
-2CB
+2CC
 330
 1F
 100
@@ -13137,7 +13149,7 @@ AcDbLine
   0
 LINE
   5
-2CC
+2CD
 330
 1F
 100
@@ -13163,7 +13175,7 @@ AcDbLine
   0
 LINE
   5
-2CD
+2CE
 330
 1F
 100
@@ -13189,7 +13201,7 @@ AcDbLine
   0
 LINE
   5
-2CE
+2CF
 330
 1F
 100
@@ -13215,7 +13227,7 @@ AcDbLine
   0
 LINE
   5
-2CF
+2D0
 330
 1F
 100
@@ -13241,7 +13253,7 @@ AcDbLine
   0
 LINE
   5
-2D0
+2D1
 330
 1F
 100
@@ -13267,7 +13279,7 @@ AcDbLine
   0
 LINE
   5
-2D1
+2D2
 330
 1F
 100
@@ -13293,7 +13305,7 @@ AcDbLine
   0
 LINE
   5
-2D2
+2D3
 330
 1F
 100
@@ -13319,7 +13331,7 @@ AcDbLine
   0
 LINE
   5
-2D3
+2D4
 330
 1F
 100
@@ -13345,7 +13357,7 @@ AcDbLine
   0
 LINE
   5
-2D4
+2D5
 330
 1F
 100
@@ -13371,7 +13383,7 @@ AcDbLine
   0
 LINE
   5
-2D5
+2D6
 330
 1F
 100
@@ -13397,7 +13409,7 @@ AcDbLine
   0
 LINE
   5
-2D6
+2D7
 330
 1F
 100
@@ -13423,7 +13435,7 @@ AcDbLine
   0
 LINE
   5
-2D7
+2D8
 330
 1F
 100
@@ -13449,7 +13461,7 @@ AcDbLine
   0
 LINE
   5
-2D8
+2D9
 330
 1F
 100
@@ -13475,7 +13487,7 @@ AcDbLine
   0
 LINE
   5
-2D9
+2DA
 330
 1F
 100
@@ -13501,7 +13513,7 @@ AcDbLine
   0
 LINE
   5
-2DA
+2DB
 330
 1F
 100
@@ -13527,7 +13539,7 @@ AcDbLine
   0
 LINE
   5
-2DB
+2DC
 330
 1F
 100
@@ -13553,7 +13565,7 @@ AcDbLine
   0
 LINE
   5
-2DC
+2DD
 330
 1F
 100
@@ -13579,7 +13591,7 @@ AcDbLine
   0
 LINE
   5
-2DD
+2DE
 330
 1F
 100
@@ -13605,7 +13617,7 @@ AcDbLine
   0
 LINE
   5
-2DE
+2DF
 330
 1F
 100
@@ -13631,7 +13643,7 @@ AcDbLine
   0
 LINE
   5
-2DF
+2E0
 330
 1F
 100
@@ -13657,7 +13669,7 @@ AcDbLine
   0
 LINE
   5
-2E0
+2E1
 330
 1F
 100
@@ -13683,7 +13695,7 @@ AcDbLine
   0
 LINE
   5
-2E1
+2E2
 330
 1F
 100
@@ -13709,7 +13721,7 @@ AcDbLine
   0
 LINE
   5
-2E2
+2E3
 330
 1F
 100
@@ -13735,7 +13747,7 @@ AcDbLine
   0
 LINE
   5
-2E3
+2E4
 330
 1F
 100
@@ -13761,7 +13773,7 @@ AcDbLine
   0
 LINE
   5
-2E4
+2E5
 330
 1F
 100
@@ -13787,7 +13799,7 @@ AcDbLine
   0
 LINE
   5
-2E5
+2E6
 330
 1F
 100
@@ -13813,7 +13825,7 @@ AcDbLine
   0
 LINE
   5
-2E6
+2E7
 330
 1F
 100
@@ -13839,7 +13851,7 @@ AcDbLine
   0
 LINE
   5
-2E7
+2E8
 330
 1F
 100
@@ -13865,7 +13877,7 @@ AcDbLine
   0
 LINE
   5
-2E8
+2E9
 330
 1F
 100
@@ -13891,7 +13903,7 @@ AcDbLine
   0
 LINE
   5
-2E9
+2EA
 330
 1F
 100
@@ -13917,7 +13929,7 @@ AcDbLine
   0
 LINE
   5
-2EA
+2EB
 330
 1F
 100
@@ -13943,7 +13955,7 @@ AcDbLine
   0
 LINE
   5
-2EB
+2EC
 330
 1F
 100
@@ -13969,7 +13981,7 @@ AcDbLine
   0
 LINE
   5
-2EC
+2ED
 330
 1F
 100
@@ -13995,7 +14007,7 @@ AcDbLine
   0
 LINE
   5
-2ED
+2EE
 330
 1F
 100
@@ -14021,7 +14033,7 @@ AcDbLine
   0
 LINE
   5
-2EE
+2EF
 330
 1F
 100
@@ -14047,7 +14059,7 @@ AcDbLine
   0
 LINE
   5
-2EF
+2F0
 330
 1F
 100
@@ -14073,7 +14085,7 @@ AcDbLine
   0
 LINE
   5
-2F0
+2F1
 330
 1F
 100
@@ -14099,7 +14111,7 @@ AcDbLine
   0
 LINE
   5
-2F1
+2F2
 330
 1F
 100
@@ -14125,7 +14137,7 @@ AcDbLine
   0
 LINE
   5
-2F2
+2F3
 330
 1F
 100
@@ -14151,7 +14163,7 @@ AcDbLine
   0
 LINE
   5
-2F3
+2F4
 330
 1F
 100
@@ -14177,7 +14189,7 @@ AcDbLine
   0
 LINE
   5
-2F4
+2F5
 330
 1F
 100
@@ -14203,7 +14215,7 @@ AcDbLine
   0
 LINE
   5
-2F5
+2F6
 330
 1F
 100
@@ -14229,7 +14241,7 @@ AcDbLine
   0
 LINE
   5
-2F6
+2F7
 330
 1F
 100
@@ -14255,7 +14267,7 @@ AcDbLine
   0
 LINE
   5
-2F7
+2F8
 330
 1F
 100
@@ -14281,7 +14293,7 @@ AcDbLine
   0
 LINE
   5
-2F8
+2F9
 330
 1F
 100
@@ -14307,7 +14319,7 @@ AcDbLine
   0
 LINE
   5
-2F9
+2FA
 330
 1F
 100
@@ -14333,7 +14345,7 @@ AcDbLine
   0
 LINE
   5
-2FA
+2FB
 330
 1F
 100
@@ -14359,7 +14371,7 @@ AcDbLine
   0
 LINE
   5
-2FB
+2FC
 330
 1F
 100
@@ -14385,7 +14397,7 @@ AcDbLine
   0
 LINE
   5
-2FC
+2FD
 330
 1F
 100
@@ -14411,7 +14423,7 @@ AcDbLine
   0
 LINE
   5
-2FD
+2FE
 330
 1F
 100
@@ -14437,7 +14449,7 @@ AcDbLine
   0
 LINE
   5
-2FE
+2FF
 330
 1F
 100
@@ -14463,7 +14475,7 @@ AcDbLine
   0
 LINE
   5
-2FF
+300
 330
 1F
 100
@@ -14489,7 +14501,7 @@ AcDbLine
   0
 LINE
   5
-300
+301
 330
 1F
 100
@@ -14515,7 +14527,7 @@ AcDbLine
   0
 LINE
   5
-301
+302
 330
 1F
 100
@@ -14541,7 +14553,7 @@ AcDbLine
   0
 LINE
   5
-302
+303
 330
 1F
 100
@@ -14567,7 +14579,7 @@ AcDbLine
   0
 LINE
   5
-303
+304
 330
 1F
 100
@@ -14593,7 +14605,7 @@ AcDbLine
   0
 LINE
   5
-304
+305
 330
 1F
 100
@@ -14619,7 +14631,7 @@ AcDbLine
   0
 LINE
   5
-305
+306
 330
 1F
 100
@@ -14645,7 +14657,7 @@ AcDbLine
   0
 LINE
   5
-306
+307
 330
 1F
 100
@@ -14671,7 +14683,7 @@ AcDbLine
   0
 LINE
   5
-307
+308
 330
 1F
 100
@@ -14697,7 +14709,7 @@ AcDbLine
   0
 LINE
   5
-308
+309
 330
 1F
 100
@@ -14723,7 +14735,7 @@ AcDbLine
   0
 LINE
   5
-309
+30A
 330
 1F
 100
@@ -14749,7 +14761,7 @@ AcDbLine
   0
 LINE
   5
-30A
+30B
 330
 1F
 100
@@ -14775,7 +14787,7 @@ AcDbLine
   0
 LINE
   5
-30B
+30C
 330
 1F
 100
@@ -14801,7 +14813,7 @@ AcDbLine
   0
 LINE
   5
-30C
+30D
 330
 1F
 100
@@ -14827,7 +14839,7 @@ AcDbLine
   0
 LINE
   5
-30D
+30E
 330
 1F
 100
@@ -14853,7 +14865,7 @@ AcDbLine
   0
 LINE
   5
-30E
+30F
 330
 1F
 100
@@ -14879,7 +14891,7 @@ AcDbLine
   0
 LINE
   5
-30F
+310
 330
 1F
 100
@@ -14905,7 +14917,7 @@ AcDbLine
   0
 LINE
   5
-310
+311
 330
 1F
 100
@@ -14931,7 +14943,7 @@ AcDbLine
   0
 LINE
   5
-311
+312
 330
 1F
 100
@@ -14957,7 +14969,7 @@ AcDbLine
   0
 LINE
   5
-312
+313
 330
 1F
 100
@@ -14983,7 +14995,7 @@ AcDbLine
   0
 LINE
   5
-313
+314
 330
 1F
 100
@@ -15009,7 +15021,7 @@ AcDbLine
   0
 LINE
   5
-314
+315
 330
 1F
 100
@@ -15035,7 +15047,7 @@ AcDbLine
   0
 LINE
   5
-315
+316
 330
 1F
 100
@@ -15061,7 +15073,7 @@ AcDbLine
   0
 LINE
   5
-316
+317
 330
 1F
 100
@@ -15087,7 +15099,7 @@ AcDbLine
   0
 LINE
   5
-317
+318
 330
 1F
 100
@@ -15113,7 +15125,7 @@ AcDbLine
   0
 LINE
   5
-318
+319
 330
 1F
 100
@@ -15139,7 +15151,7 @@ AcDbLine
   0
 LINE
   5
-319
+31A
 330
 1F
 100
@@ -15165,7 +15177,7 @@ AcDbLine
   0
 LINE
   5
-31A
+31B
 330
 1F
 100
@@ -15191,7 +15203,7 @@ AcDbLine
   0
 LINE
   5
-31B
+31C
 330
 1F
 100
@@ -15217,7 +15229,7 @@ AcDbLine
   0
 LINE
   5
-31C
+31D
 330
 1F
 100
@@ -15243,7 +15255,7 @@ AcDbLine
   0
 LINE
   5
-31D
+31E
 330
 1F
 100
@@ -15269,7 +15281,7 @@ AcDbLine
   0
 LINE
   5
-31E
+31F
 330
 1F
 100
@@ -15295,7 +15307,7 @@ AcDbLine
   0
 LINE
   5
-31F
+320
 330
 1F
 100
@@ -15321,7 +15333,7 @@ AcDbLine
   0
 LINE
   5
-320
+321
 330
 1F
 100
@@ -15347,7 +15359,7 @@ AcDbLine
   0
 LINE
   5
-321
+322
 330
 1F
 100
@@ -15373,7 +15385,7 @@ AcDbLine
   0
 LINE
   5
-322
+323
 330
 1F
 100
@@ -15399,7 +15411,7 @@ AcDbLine
   0
 LINE
   5
-323
+324
 330
 1F
 100
@@ -15425,7 +15437,7 @@ AcDbLine
   0
 LINE
   5
-324
+325
 330
 1F
 100
@@ -15451,7 +15463,7 @@ AcDbLine
   0
 LINE
   5
-325
+326
 330
 1F
 100
@@ -15477,7 +15489,7 @@ AcDbLine
   0
 LINE
   5
-326
+327
 330
 1F
 100
@@ -15503,7 +15515,7 @@ AcDbLine
   0
 LINE
   5
-327
+328
 330
 1F
 100
@@ -15529,7 +15541,7 @@ AcDbLine
   0
 LINE
   5
-328
+329
 330
 1F
 100
@@ -15555,7 +15567,7 @@ AcDbLine
   0
 LINE
   5
-329
+32A
 330
 1F
 100
@@ -15581,7 +15593,7 @@ AcDbLine
   0
 LINE
   5
-32A
+32B
 330
 1F
 100
@@ -15607,7 +15619,7 @@ AcDbLine
   0
 LINE
   5
-32B
+32C
 330
 1F
 100
@@ -15633,7 +15645,7 @@ AcDbLine
   0
 LINE
   5
-32C
+32D
 330
 1F
 100
@@ -15659,7 +15671,7 @@ AcDbLine
   0
 LINE
   5
-32D
+32E
 330
 1F
 100
@@ -15685,7 +15697,7 @@ AcDbLine
   0
 LINE
   5
-32E
+32F
 330
 1F
 100
@@ -15711,7 +15723,7 @@ AcDbLine
   0
 LINE
   5
-32F
+330
 330
 1F
 100
@@ -15737,7 +15749,7 @@ AcDbLine
   0
 LINE
   5
-330
+331
 330
 1F
 100
@@ -15763,7 +15775,7 @@ AcDbLine
   0
 LINE
   5
-331
+332
 330
 1F
 100
@@ -15789,7 +15801,7 @@ AcDbLine
   0
 LINE
   5
-332
+333
 330
 1F
 100
@@ -15815,7 +15827,7 @@ AcDbLine
   0
 LINE
   5
-333
+334
 330
 1F
 100
@@ -15841,7 +15853,7 @@ AcDbLine
   0
 LINE
   5
-334
+335
 330
 1F
 100
@@ -15867,7 +15879,7 @@ AcDbLine
   0
 LINE
   5
-335
+336
 330
 1F
 100
@@ -15893,7 +15905,7 @@ AcDbLine
   0
 LINE
   5
-336
+337
 330
 1F
 100
@@ -15919,7 +15931,7 @@ AcDbLine
   0
 LINE
   5
-337
+338
 330
 1F
 100
@@ -15945,7 +15957,7 @@ AcDbLine
   0
 LINE
   5
-338
+339
 330
 1F
 100
@@ -15971,7 +15983,7 @@ AcDbLine
   0
 LINE
   5
-339
+33A
 330
 1F
 100
@@ -15997,7 +16009,7 @@ AcDbLine
   0
 LINE
   5
-33A
+33B
 330
 1F
 100
@@ -16023,7 +16035,7 @@ AcDbLine
   0
 LINE
   5
-33B
+33C
 330
 1F
 100
@@ -16049,7 +16061,7 @@ AcDbLine
   0
 LINE
   5
-33C
+33D
 330
 1F
 100
@@ -16075,7 +16087,7 @@ AcDbLine
   0
 LINE
   5
-33D
+33E
 330
 1F
 100
@@ -16101,7 +16113,7 @@ AcDbLine
   0
 LINE
   5
-33E
+33F
 330
 1F
 100
@@ -16127,7 +16139,7 @@ AcDbLine
   0
 LINE
   5
-33F
+340
 330
 1F
 100
@@ -16153,7 +16165,7 @@ AcDbLine
   0
 LINE
   5
-340
+341
 330
 1F
 100
@@ -16179,7 +16191,7 @@ AcDbLine
   0
 LINE
   5
-341
+342
 330
 1F
 100
@@ -16205,7 +16217,7 @@ AcDbLine
   0
 LINE
   5
-342
+343
 330
 1F
 100
@@ -16231,7 +16243,7 @@ AcDbLine
   0
 LINE
   5
-343
+344
 330
 1F
 100
@@ -16257,7 +16269,7 @@ AcDbLine
   0
 LINE
   5
-344
+345
 330
 1F
 100
@@ -16283,7 +16295,7 @@ AcDbLine
   0
 LINE
   5
-345
+346
 330
 1F
 100
@@ -16309,7 +16321,7 @@ AcDbLine
   0
 LINE
   5
-346
+347
 330
 1F
 100
@@ -16335,7 +16347,7 @@ AcDbLine
   0
 LINE
   5
-347
+348
 330
 1F
 100
@@ -16361,7 +16373,7 @@ AcDbLine
   0
 LINE
   5
-348
+349
 330
 1F
 100
@@ -16387,7 +16399,7 @@ AcDbLine
   0
 LINE
   5
-349
+34A
 330
 1F
 100
@@ -16413,7 +16425,7 @@ AcDbLine
   0
 LINE
   5
-34A
+34B
 330
 1F
 100
@@ -16439,7 +16451,7 @@ AcDbLine
   0
 LINE
   5
-34B
+34C
 330
 1F
 100
@@ -16465,7 +16477,7 @@ AcDbLine
   0
 LINE
   5
-34C
+34D
 330
 1F
 100
@@ -16491,7 +16503,7 @@ AcDbLine
   0
 LINE
   5
-34D
+34E
 330
 1F
 100
@@ -16517,7 +16529,7 @@ AcDbLine
   0
 LINE
   5
-34E
+34F
 330
 1F
 100
@@ -16543,7 +16555,7 @@ AcDbLine
   0
 LINE
   5
-34F
+350
 330
 1F
 100
@@ -16569,7 +16581,7 @@ AcDbLine
   0
 LINE
   5
-350
+351
 330
 1F
 100
@@ -16595,7 +16607,7 @@ AcDbLine
   0
 LINE
   5
-351
+352
 330
 1F
 100
@@ -16621,7 +16633,7 @@ AcDbLine
   0
 LINE
   5
-352
+353
 330
 1F
 100
@@ -16647,7 +16659,7 @@ AcDbLine
   0
 LINE
   5
-353
+354
 330
 1F
 100
@@ -16673,7 +16685,7 @@ AcDbLine
   0
 LINE
   5
-354
+355
 330
 1F
 100
@@ -16699,7 +16711,7 @@ AcDbLine
   0
 LINE
   5
-355
+356
 330
 1F
 100
@@ -16725,7 +16737,7 @@ AcDbLine
   0
 LINE
   5
-356
+357
 330
 1F
 100
@@ -16751,7 +16763,7 @@ AcDbLine
   0
 LINE
   5
-357
+358
 330
 1F
 100
@@ -16777,7 +16789,7 @@ AcDbLine
   0
 LINE
   5
-358
+359
 330
 1F
 100
@@ -16803,7 +16815,7 @@ AcDbLine
   0
 LINE
   5
-359
+35A
 330
 1F
 100
@@ -16829,7 +16841,7 @@ AcDbLine
   0
 LINE
   5
-35A
+35B
 330
 1F
 100
@@ -16855,7 +16867,7 @@ AcDbLine
   0
 LINE
   5
-35B
+35C
 330
 1F
 100
@@ -16881,7 +16893,7 @@ AcDbLine
   0
 LINE
   5
-35C
+35D
 330
 1F
 100
@@ -16907,7 +16919,7 @@ AcDbLine
   0
 LINE
   5
-35D
+35E
 330
 1F
 100
@@ -16933,7 +16945,7 @@ AcDbLine
   0
 LINE
   5
-35E
+35F
 330
 1F
 100
@@ -16959,7 +16971,7 @@ AcDbLine
   0
 LINE
   5
-35F
+360
 330
 1F
 100
@@ -16985,7 +16997,7 @@ AcDbLine
   0
 LINE
   5
-360
+361
 330
 1F
 100
@@ -17011,7 +17023,7 @@ AcDbLine
   0
 LINE
   5
-361
+362
 330
 1F
 100
@@ -17037,7 +17049,7 @@ AcDbLine
   0
 LINE
   5
-362
+363
 330
 1F
 100
@@ -17063,7 +17075,7 @@ AcDbLine
   0
 LINE
   5
-363
+364
 330
 1F
 100
@@ -17089,7 +17101,7 @@ AcDbLine
   0
 LINE
   5
-364
+365
 330
 1F
 100
@@ -17115,7 +17127,7 @@ AcDbLine
   0
 LINE
   5
-365
+366
 330
 1F
 100
@@ -17141,7 +17153,7 @@ AcDbLine
   0
 LINE
   5
-366
+367
 330
 1F
 100
@@ -17167,7 +17179,7 @@ AcDbLine
   0
 LINE
   5
-367
+368
 330
 1F
 100
@@ -17193,7 +17205,7 @@ AcDbLine
   0
 LINE
   5
-368
+369
 330
 1F
 100
@@ -17219,7 +17231,7 @@ AcDbLine
   0
 LINE
   5
-369
+36A
 330
 1F
 100
@@ -17245,7 +17257,7 @@ AcDbLine
   0
 LINE
   5
-36A
+36B
 330
 1F
 100
@@ -17271,7 +17283,7 @@ AcDbLine
   0
 LINE
   5
-36B
+36C
 330
 1F
 100
@@ -17297,7 +17309,7 @@ AcDbLine
   0
 LINE
   5
-36C
+36D
 330
 1F
 100
@@ -17323,7 +17335,7 @@ AcDbLine
   0
 LINE
   5
-36D
+36E
 330
 1F
 100
@@ -17349,7 +17361,7 @@ AcDbLine
   0
 LINE
   5
-36E
+36F
 330
 1F
 100
@@ -17375,7 +17387,7 @@ AcDbLine
   0
 LINE
   5
-36F
+370
 330
 1F
 100
@@ -17401,7 +17413,7 @@ AcDbLine
   0
 LINE
   5
-370
+371
 330
 1F
 100
@@ -17427,7 +17439,7 @@ AcDbLine
   0
 LINE
   5
-371
+372
 330
 1F
 100
@@ -17453,7 +17465,7 @@ AcDbLine
   0
 LINE
   5
-372
+373
 330
 1F
 100
@@ -17479,7 +17491,7 @@ AcDbLine
   0
 LINE
   5
-373
+374
 330
 1F
 100
@@ -17505,7 +17517,7 @@ AcDbLine
   0
 LINE
   5
-374
+375
 330
 1F
 100
@@ -17531,7 +17543,7 @@ AcDbLine
   0
 LINE
   5
-375
+376
 330
 1F
 100
@@ -17557,7 +17569,7 @@ AcDbLine
   0
 LINE
   5
-376
+377
 330
 1F
 100
@@ -17583,7 +17595,7 @@ AcDbLine
   0
 LINE
   5
-377
+378
 330
 1F
 100
@@ -17609,7 +17621,7 @@ AcDbLine
   0
 LINE
   5
-378
+379
 330
 1F
 100
@@ -17635,7 +17647,7 @@ AcDbLine
   0
 LINE
   5
-379
+37A
 330
 1F
 100
@@ -17661,7 +17673,7 @@ AcDbLine
   0
 LINE
   5
-37A
+37B
 330
 1F
 100
@@ -17687,7 +17699,7 @@ AcDbLine
   0
 LINE
   5
-37B
+37C
 330
 1F
 100
@@ -17713,7 +17725,7 @@ AcDbLine
   0
 LINE
   5
-37C
+37D
 330
 1F
 100
@@ -17739,7 +17751,7 @@ AcDbLine
   0
 LINE
   5
-37D
+37E
 330
 1F
 100
@@ -17765,7 +17777,7 @@ AcDbLine
   0
 LINE
   5
-37E
+37F
 330
 1F
 100
@@ -17791,7 +17803,7 @@ AcDbLine
   0
 LINE
   5
-37F
+380
 330
 1F
 100
@@ -17817,7 +17829,7 @@ AcDbLine
   0
 LINE
   5
-380
+381
 330
 1F
 100
@@ -17843,7 +17855,7 @@ AcDbLine
   0
 LINE
   5
-381
+382
 330
 1F
 100
@@ -17869,7 +17881,7 @@ AcDbLine
   0
 LINE
   5
-382
+383
 330
 1F
 100
@@ -17895,7 +17907,7 @@ AcDbLine
   0
 LINE
   5
-383
+384
 330
 1F
 100
@@ -17921,7 +17933,7 @@ AcDbLine
   0
 LINE
   5
-384
+385
 330
 1F
 100
@@ -17947,7 +17959,7 @@ AcDbLine
   0
 LINE
   5
-385
+386
 330
 1F
 100
@@ -17973,7 +17985,7 @@ AcDbLine
   0
 LINE
   5
-386
+387
 330
 1F
 100
@@ -17999,7 +18011,7 @@ AcDbLine
   0
 LINE
   5
-387
+388
 330
 1F
 100
@@ -18025,7 +18037,7 @@ AcDbLine
   0
 LINE
   5
-388
+389
 330
 1F
 100
@@ -18051,7 +18063,7 @@ AcDbLine
   0
 LINE
   5
-389
+38A
 330
 1F
 100
@@ -18077,7 +18089,7 @@ AcDbLine
   0
 LINE
   5
-38A
+38B
 330
 1F
 100
@@ -18103,7 +18115,7 @@ AcDbLine
   0
 LINE
   5
-38B
+38C
 330
 1F
 100
@@ -18129,7 +18141,7 @@ AcDbLine
   0
 LINE
   5
-38C
+38D
 330
 1F
 100
@@ -18155,7 +18167,7 @@ AcDbLine
   0
 LINE
   5
-38D
+38E
 330
 1F
 100
@@ -18181,7 +18193,7 @@ AcDbLine
   0
 LINE
   5
-38E
+38F
 330
 1F
 100
@@ -18207,7 +18219,7 @@ AcDbLine
   0
 LINE
   5
-38F
+390
 330
 1F
 100
@@ -18233,7 +18245,7 @@ AcDbLine
   0
 LINE
   5
-390
+391
 330
 1F
 100
@@ -18259,7 +18271,7 @@ AcDbLine
   0
 LINE
   5
-391
+392
 330
 1F
 100
@@ -18285,7 +18297,7 @@ AcDbLine
   0
 LINE
   5
-392
+393
 330
 1F
 100
@@ -18311,7 +18323,7 @@ AcDbLine
   0
 LINE
   5
-393
+394
 330
 1F
 100
@@ -18337,7 +18349,7 @@ AcDbLine
   0
 LINE
   5
-394
+395
 330
 1F
 100
@@ -18363,7 +18375,7 @@ AcDbLine
   0
 LINE
   5
-395
+396
 330
 1F
 100
@@ -18389,7 +18401,7 @@ AcDbLine
   0
 LINE
   5
-396
+397
 330
 1F
 100
@@ -18415,7 +18427,7 @@ AcDbLine
   0
 LINE
   5
-397
+398
 330
 1F
 100
@@ -18441,7 +18453,7 @@ AcDbLine
   0
 LINE
   5
-398
+399
 330
 1F
 100
@@ -18467,7 +18479,7 @@ AcDbLine
   0
 LINE
   5
-399
+39A
 330
 1F
 100
@@ -18493,7 +18505,7 @@ AcDbLine
   0
 LINE
   5
-39A
+39B
 330
 1F
 100
@@ -18519,7 +18531,7 @@ AcDbLine
   0
 LINE
   5
-39B
+39C
 330
 1F
 100
@@ -18545,7 +18557,7 @@ AcDbLine
   0
 LINE
   5
-39C
+39D
 330
 1F
 100
@@ -18571,7 +18583,7 @@ AcDbLine
   0
 LINE
   5
-39D
+39E
 330
 1F
 100
@@ -18597,7 +18609,7 @@ AcDbLine
   0
 LINE
   5
-39E
+39F
 330
 1F
 100
@@ -18623,7 +18635,7 @@ AcDbLine
   0
 LINE
   5
-39F
+3A0
 330
 1F
 100
@@ -18649,7 +18661,7 @@ AcDbLine
   0
 LINE
   5
-3A0
+3A1
 330
 1F
 100
@@ -18675,7 +18687,7 @@ AcDbLine
   0
 LINE
   5
-3A1
+3A2
 330
 1F
 100
@@ -18701,7 +18713,7 @@ AcDbLine
   0
 LINE
   5
-3A2
+3A3
 330
 1F
 100
@@ -18727,7 +18739,7 @@ AcDbLine
   0
 LINE
   5
-3A3
+3A4
 330
 1F
 100
@@ -18753,7 +18765,7 @@ AcDbLine
   0
 LINE
   5
-3A4
+3A5
 330
 1F
 100
@@ -18779,7 +18791,7 @@ AcDbLine
   0
 LINE
   5
-3A5
+3A6
 330
 1F
 100
@@ -18805,7 +18817,7 @@ AcDbLine
   0
 LINE
   5
-3A6
+3A7
 330
 1F
 100
@@ -18831,7 +18843,7 @@ AcDbLine
   0
 LINE
   5
-3A7
+3A8
 330
 1F
 100
@@ -18857,7 +18869,7 @@ AcDbLine
   0
 LINE
   5
-3A8
+3A9
 330
 1F
 100
@@ -18883,7 +18895,7 @@ AcDbLine
   0
 LINE
   5
-3A9
+3AA
 330
 1F
 100
@@ -18909,7 +18921,7 @@ AcDbLine
   0
 LINE
   5
-3AA
+3AB
 330
 1F
 100
@@ -18935,7 +18947,7 @@ AcDbLine
   0
 LINE
   5
-3AB
+3AC
 330
 1F
 100
@@ -18961,7 +18973,7 @@ AcDbLine
   0
 LINE
   5
-3AC
+3AD
 330
 1F
 100
@@ -18987,7 +18999,7 @@ AcDbLine
   0
 LINE
   5
-3AD
+3AE
 330
 1F
 100
@@ -19013,7 +19025,7 @@ AcDbLine
   0
 LINE
   5
-3AE
+3AF
 330
 1F
 100
@@ -19039,7 +19051,7 @@ AcDbLine
   0
 LINE
   5
-3AF
+3B0
 330
 1F
 100
@@ -19065,7 +19077,7 @@ AcDbLine
   0
 LINE
   5
-3B0
+3B1
 330
 1F
 100
@@ -19091,7 +19103,7 @@ AcDbLine
   0
 LINE
   5
-3B1
+3B2
 330
 1F
 100
@@ -19117,7 +19129,7 @@ AcDbLine
   0
 LINE
   5
-3B2
+3B3
 330
 1F
 100
@@ -19143,7 +19155,7 @@ AcDbLine
   0
 LINE
   5
-3B3
+3B4
 330
 1F
 100
@@ -19167,9 +19179,945 @@ AcDbLine
  31
 414.2999877929688
   0
+LINE
+  5
+4BC
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517030.2564293378
+ 20
+4400251.667791919
+ 30
+410.3999938964844
+ 11
+517031.343788356
+ 21
+4400266.628017996
+ 31
+410.4963581154379
+  0
+LINE
+  5
+4BD
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517031.343788356
+ 20
+4400266.628017996
+ 30
+410.4963581154379
+ 11
+517035.4768020548
+ 21
+4400281.043818423
+ 31
+410.8171319452348
+  0
+LINE
+  5
+4BE
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517035.4768020548
+ 20
+4400281.043818423
+ 30
+410.8171319452348
+ 11
+517046.6121675972
+ 21
+4400291.093872674
+ 31
+410.8105142937774
+  0
+LINE
+  5
+4C0
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517046.6121675972
+ 20
+4400291.093872674
+ 30
+410.8105142937774
+ 11
+517049.8864607713
+ 21
+4400294.871846069
+ 31
+410.8874638970275
+  0
+LINE
+  5
+4C2
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517049.8864607713
+ 20
+4400294.871846069
+ 30
+410.8874638970275
+ 11
+517051.8518596854
+ 21
+4400299.468082687
+ 31
+410.9961656006864
+  0
+LINE
+  5
+4C3
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517051.8518596854
+ 20
+4400299.468082687
+ 30
+410.9961656006864
+ 11
+517055.0923616497
+ 21
+4400314.106927077
+ 31
+411.4471444479757
+  0
+LINE
+  5
+4C5
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517055.0923616497
+ 20
+4400314.106927077
+ 30
+411.4471444479757
+ 11
+517056.6394665599
+ 21
+4400339.057868736
+ 31
+411.6858424256513
+  0
+LINE
+  5
+4C7
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517056.6394665599
+ 20
+4400339.057868736
+ 30
+411.6858424256513
+ 11
+517061.2782782688
+ 21
+4400353.310647443
+ 31
+412.2687018077004
+  0
+LINE
+  5
+4C8
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517061.2782782688
+ 20
+4400353.310647443
+ 30
+412.2687018077004
+ 11
+517062.7248233643
+ 21
+4400363.205463681
+ 31
+412.2796058713087
+  0
+LINE
+  5
+4C9
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517062.7248233643
+ 20
+4400363.205463681
+ 30
+412.2796058713087
+ 11
+517069.8517704607
+ 21
+4400387.161147847
+ 31
+412.8556451641669
+  0
+LINE
+  5
+4CA
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517069.8517704607
+ 20
+4400387.161147847
+ 30
+412.8556451641669
+ 11
+517074.9459663288
+ 21
+4400411.63313528
+ 31
+413.2691660868579
+  0
+LINE
+  5
+4CC
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517074.9459663288
+ 20
+4400411.63313528
+ 30
+413.2691660868579
+ 11
+517082.6139621339
+ 21
+4400471.138816611
+ 31
+413.7942657599248
+  0
+LINE
+  5
+4CD
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517082.6139621339
+ 20
+4400471.138816611
+ 30
+413.7942657599248
+ 11
+517084.046068446
+ 21
+4400481.030535714
+ 31
+414.1151469031743
+  0
+LINE
+  5
+4D0
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517084.046068446
+ 20
+4400481.030535714
+ 30
+414.1151469031743
+ 11
+517084.9393448433
+ 21
+4400490.989312323
+ 31
+414.272708724345
+  0
+LINE
+  5
+4D1
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517084.9393448433
+ 20
+4400490.989312323
+ 30
+414.272708724345
+ 11
+517088.4017433434
+ 21
+4400494.58670869
+ 31
+414.5382948750257
+  0
+LINE
+  5
+4D2
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517088.4017433434
+ 20
+4400494.58670869
+ 30
+414.5382948750257
+ 11
+517102.6784105593
+ 21
+4400499.188370425
+ 31
+414.4997919044621
+  0
+LINE
+  5
+4D3
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517102.6784105593
+ 20
+4400499.188370425
+ 30
+414.4997919044621
+ 11
+517109.3116962467
+ 21
+4400499.727705221
+ 31
+414.5
+  0
+LINE
+  5
+4D5
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517082.6139621339
+ 20
+4400471.138816611
+ 30
+413.7942657599248
+ 11
+517074.7596188813
+ 21
+4400477.327730197
+ 31
+413.875756183528
+  0
+LINE
+  5
+4D6
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517074.7596188813
+ 20
+4400477.327730197
+ 30
+413.875756183528
+ 11
+517055.928687325
+ 21
+4400484.05604597
+ 31
+414.2304160053787
+  0
+LINE
+  5
+4D8
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517055.928687325
+ 20
+4400484.05604597
+ 30
+414.2304160053787
+ 11
+517041.0943353127
+ 21
+4400486.260001198
+ 31
+414.5212453856536
+  0
+LINE
+  5
+4D9
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517041.0943353127
+ 20
+4400486.260001198
+ 30
+414.5212453856536
+ 11
+517033.4118206478
+ 21
+4400492.661452875
+ 31
+414.5016274508375
+  0
+LINE
+  5
+4DA
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517033.4118206478
+ 20
+4400492.661452875
+ 30
+414.5016274508375
+ 11
+517013.449277402
+ 21
+4400491.440678231
+ 31
+414.5827226475734
+  0
+LINE
+  5
+4DE
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+517013.449277402
+ 20
+4400491.440678231
+ 30
+414.5827226475734
+ 11
+516983.6992904905
+ 21
+4400487.57572533
+ 31
+414.6031636543715
+  0
+LINE
+  5
+4DF
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516983.6992904905
+ 20
+4400487.57572533
+ 30
+414.6031636543715
+ 11
+516973.8309976769
+ 21
+4400489.193374597
+ 31
+414.600371394734
+  0
+LINE
+  5
+4E1
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516973.8309976769
+ 20
+4400489.193374597
+ 30
+414.600371394734
+ 11
+516943.8924837607
+ 21
+4400491.106840892
+ 31
+414.7553914655031
+  0
+LINE
+  5
+4E5
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516943.8924837607
+ 20
+4400491.106840892
+ 30
+414.7553914655031
+ 11
+516924.1890877279
+ 21
+4400494.535501588
+ 31
+414.8984669823569
+  0
+LINE
+  5
+4E6
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516924.1890877279
+ 20
+4400494.535501588
+ 30
+414.8984669823569
+ 11
+516914.4569332799
+ 21
+4400492.236552604
+ 31
+414.9003029105822
+  0
+LINE
+  5
+4E8
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516914.4569332799
+ 20
+4400492.236552604
+ 30
+414.9003029105822
+ 11
+516899.469929292
+ 21
+4400492.860821279
+ 31
+414.9000031070205
+  0
+LINE
+  5
+4E9
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516899.469929292
+ 20
+4400492.860821279
+ 30
+414.9000031070205
+ 11
+516884.8229119083
+ 21
+4400489.659390865
+ 31
+415.3644652364731
+  0
+LINE
+  5
+4EB
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516884.8229119083
+ 20
+4400489.659390865
+ 30
+415.3644652364731
+ 11
+516844.8501921087
+ 21
+4400488.198055476
+ 31
+415.5793389286787
+  0
+LINE
+  5
+4EC
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516844.8501921087
+ 20
+4400488.198055476
+ 30
+415.5793389286787
+ 11
+516824.9649128996
+ 21
+4400490.337051921
+ 31
+415.5984435411852
+  0
+LINE
+  5
+4ED
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516824.9649128996
+ 20
+4400490.337051921
+ 30
+415.5984435411852
+ 11
+516805.7792880021
+ 21
+4400495.984942968
+ 31
+415.7130036150006
+  0
+LINE
+  5
+4EE
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516805.7792880021
+ 20
+4400495.984942968
+ 30
+415.7130036150006
+ 11
+516801.0832838507
+ 21
+4400494.26811851
+ 31
+415.7053362364376
+  0
+LINE
+  5
+4EF
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516801.0832838507
+ 20
+4400494.26811851
+ 30
+415.7053362364376
+ 11
+516787.7399861302
+ 21
+4400487.421606041
+ 31
+415.9911210464817
+  0
+LINE
+  5
+4F0
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516787.7399861302
+ 20
+4400487.421606041
+ 30
+415.9911210464817
+ 11
+516779.6729456064
+ 21
+4400481.512059078
+ 31
+416.0016978904284
+  0
+LINE
+  5
+4F1
+330
+1F
+100
+AcDbEntity
+  8
+GEOFENCE
+ 62
+     3
+100
+AcDbLine
+ 10
+516779.6729456064
+ 20
+4400481.512059078
+ 30
+416.0016978904284
+ 11
+516770.1155
+ 21
+4400479.12675
+ 31
+416.0
+  0
 POINT
   5
-3EB
+4F9
 330
 1F
 100
@@ -19177,11 +20125,11 @@ AcDbEntity
   8
 INIT_COORD
  62
-     7
+     3
 100
 AcDbPoint
  10
-517030.2564293377
+517030.2564293378
  20
 4400251.667791919
  30
@@ -19189,7 +20137,7 @@ AcDbPoint
   0
 VIEWPORT
   5
-3B7
+3D8
 330
 1B
 100
@@ -19201,13 +20149,13 @@ AcDbEntity
 100
 AcDbViewport
  10
-496673.9664465922
+496551.8820012527
  20
-4227018.990746893
+4227036.043772928
  30
 0.0
  40
-582.9641121226596
+582.9641121227178
  41
 457.2690000003204
  68
@@ -19215,9 +20163,9 @@ AcDbViewport
  69
      1
  12
-496673.9664465922
+496551.8820012527
  22
-4227018.990746893
+4227036.043772928
  13
 0.0
  23
@@ -19323,7 +20271,7 @@ AcDbDictionary
   3
 ACAD_DETAILVIEWSTYLE
 350
-3F3
+416
   3
 ACAD_GROUP
 350
@@ -19331,7 +20279,7 @@ D
   3
 ACAD_IMAGE_VARS
 350
-3E6
+407
   3
 ACAD_LAYOUT
 350
@@ -19343,7 +20291,7 @@ ACAD_MATERIAL
   3
 ACAD_MLEADERSTYLE
 350
-166
+167
   3
 ACAD_MLINESTYLE
 350
@@ -19359,15 +20307,15 @@ E
   3
 ACAD_SCALELIST
 350
-3B9
+3DA
   3
 ACAD_SECTIONVIEWSTYLE
 350
-3F4
+417
   3
 ACAD_TABLESTYLE
 350
-175
+176
   3
 ACAD_VISUALSTYLE
 350
@@ -19375,15 +20323,15 @@ ACAD_VISUALSTYLE
   3
 ACDB_RECOMPOSE_DATA
 350
-3F7
+4FC
   3
 AcDbVariableDictionary
 350
-3EC
+40F
   3
 APPDATA
 350
-3E5
+406
   0
 SUN
   5
@@ -19419,7 +20367,7 @@ AcDbSun
   0
 DICTIONARY
   5
-3E7
+408
 330
 2
 100
@@ -19431,11 +20379,15 @@ AcDbDictionary
   3
 ACAD_LAYERSTATES
 360
-3E8
+409
+  3
+ACLYDICTIONARY
+360
+4BA
   0
 DICTIONARY
   5
-169
+16A
 330
 1F
 100
@@ -19447,11 +20399,11 @@ AcDbDictionary
   3
 ACAD_GEOGRAPHICDATA
 360
-16A
+16B
   0
 DICTIONARY
   5
-3F3
+416
 102
 {ACAD_REACTORS
 330
@@ -19483,7 +20435,7 @@ AcDbDictionary
   0
 RASTERVARIABLES
   5
-3E6
+407
 102
 {ACAD_REACTORS
 330
@@ -19561,7 +20513,7 @@ Global
   0
 DICTIONARY
   5
-166
+167
 102
 {ACAD_REACTORS
 330
@@ -19577,7 +20529,7 @@ AcDbDictionary
   3
 Standard
 350
-167
+168
   0
 DICTIONARY
   5
@@ -19641,7 +20593,7 @@ F
   0
 DICTIONARY
   5
-3B9
+3DA
 102
 {ACAD_REACTORS
 330
@@ -19657,139 +20609,139 @@ AcDbDictionary
   3
 A0
 350
-3BA
+3DB
   3
 A1
 350
-3BB
+3DC
   3
 A2
 350
-3BC
+3DD
   3
 A3
 350
-3BD
+3DE
   3
 A4
 350
-3BE
+3DF
   3
 A5
 350
-3BF
+3E0
   3
 A6
 350
-3C0
+3E1
   3
 A7
 350
-3C1
+3E2
   3
 A8
 350
-3C2
+3E3
   3
 A9
 350
-3C3
+3E4
   3
 B0
 350
-3C4
+3E5
   3
 B1
 350
-3C5
+3E6
   3
 B2
 350
-3C6
+3E7
   3
 B3
 350
-3C7
+3E8
   3
 B4
 350
-3C8
+3E9
   3
 B5
 350
-3C9
+3EA
   3
 B6
 350
-3CA
+3EB
   3
 B7
 350
-3CB
+3EC
   3
 B8
 350
-3CC
+3ED
   3
 B9
 350
-3CD
+3EE
   3
 C0
 350
-3CE
+3EF
   3
 C1
 350
-3CF
+3F0
   3
 C2
 350
-3D0
+3F1
   3
 C3
 350
-3D1
+3F2
   3
 C4
 350
-3D2
+3F3
   3
 C5
 350
-3D3
+3F4
   3
 C6
 350
-3D4
+3F5
   3
 C7
 350
-3D5
+3F6
   3
 C8
 350
-3D6
+3F7
   3
 C9
 350
-3D7
+3F8
   3
 D0
 350
-3D8
+3F9
   3
 D1
 350
-3D9
+3FA
   3
 D2
 350
-3DA
+3FB
   0
 DICTIONARY
   5
-3F4
+417
 102
 {ACAD_REACTORS
 330
@@ -19805,7 +20757,7 @@ AcDbDictionary
   0
 DICTIONARY
   5
-175
+176
 102
 {ACAD_REACTORS
 330
@@ -19821,7 +20773,7 @@ AcDbDictionary
   3
 Standard
 350
-176
+177
   0
 DICTIONARY
   5
@@ -19873,7 +20825,7 @@ Dim
   3
 EdgeColorOff
 350
-3DF
+400
   3
 Facepattern
 350
@@ -19897,11 +20849,11 @@ GouraudWithEdges
   3
 Hidden
 350
-3DC
+3FD
   3
 JitterOff
 350
-3DD
+3FE
   3
 Linepattern
 350
@@ -19909,7 +20861,7 @@ Linepattern
   3
 OverhangOff
 350
-3DE
+3FF
   3
 Realistic
 350
@@ -19917,19 +20869,19 @@ Realistic
   3
 Shaded
 350
-3E4
+405
   3
 Shaded with edges
 350
-3E3
+404
   3
 Shades of Gray
 350
-3E0
+401
   3
 Sketchy
 350
-3E1
+402
   3
 Thicken
 350
@@ -19937,15 +20889,15 @@ Thicken
   3
 Wireframe
 350
-3DB
+3FC
   3
 X-Ray
 350
-3E2
+403
   0
 XRECORD
   5
-3F7
+4FC
 102
 {ACAD_REACTORS
 330
@@ -19961,11 +20913,11 @@ AcDbXrecord
  90
         1
 330
-176
+177
   0
 DICTIONARY
   5
-3EC
+40F
 102
 {ACAD_REACTORS
 330
@@ -19981,19 +20933,19 @@ AcDbDictionary
   3
 CANNOSCALE
 350
-3ED
+410
   3
 CMLEADERSTYLE
 350
-3F2
+415
   3
 CTABLESTYLE
 350
-3F1
+414
   0
 DICTIONARY
   5
-3E5
+406
 102
 {ACAD_REACTORS
 330
@@ -20009,35 +20961,55 @@ AcDbDictionary
   0
 DICTIONARY
   5
-3E8
+409
 102
 {ACAD_REACTORS
 330
-3E7
+408
 102
 }
 330
-3E7
+408
 100
 AcDbDictionary
 281
      1
+  0
+DICTIONARY
+  5
+4BA
+102
+{ACAD_REACTORS
+330
+408
+102
+}
+330
+408
+100
+AcDbDictionary
+281
+     1
+1001
+ACAD
+1000
+<All
   0
 GEODATA
   5
-16A
+16B
 102
 {ACAD_REACTORS
 330
-169
+16A
 102
 }
 330
-169
+16A
 100
 AcDbGeoData
  90
-        3
+        2
 330
 1F
  70
@@ -20229,7 +21201,7 @@ Layout1
 330
 1B
 331
-3B7
+3D8
   0
 LAYOUT
   5
@@ -20363,7 +21335,7 @@ Layout2
 330
 151
 331
-3B8
+3D9
   0
 LAYOUT
   5
@@ -20395,7 +21367,7 @@ TCAD_Plot
  43
 0.0
  44
-14807.28844791555
+14807.28844791703
  45
 11614.63260000814
  46
@@ -20405,11 +21377,11 @@ TCAD_Plot
  48
 -291.4820560613298
  49
--228.6345000006258
+-228.6344999996945
 140
-291.4820560613298
+291.482056061388
 141
-228.6344999996945
+228.6345000006258
 142
 1.0
 143
@@ -20433,11 +21405,11 @@ TCAD_Plot
  78
    300
 147
-0.6187912520753541
+0.5456188990721819
 148
 7403.644223957776
 149
-5807.316300015897
+5807.316299992241
 100
 AcDbLayout
   1
@@ -20447,13 +21419,13 @@ Model
  71
      0
  10
-496382.4843905309
+496260.3999451914
  20
-4226790.356246892
+4226807.409272929
  11
-496965.4485026535
+496843.3640573141
  21
-4227247.625246893
+4227264.678272929
  12
 0.0
  22
@@ -20471,7 +21443,7 @@ Model
  25
 4400501.481
  35
-416.0
+416.0016978904284
 146
 0.0
  13
@@ -20561,15 +21533,15 @@ Global
   0
 MLEADERSTYLE
   5
-167
+168
 102
 {ACAD_REACTORS
 330
-166
+167
 102
 }
 330
-166
+167
 100
 AcDbMLeaderStyle
 179
@@ -20623,7 +21595,7 @@ AcDbMLeaderStyle
  93
 -1056964608
  45
-0.1427721594289114
+0.1358925967199632
 292
      0
 297
@@ -20662,8 +21634,6 @@ AcDbMLeaderStyle
      9
 273
      9
-298
-     0
   0
 MLINESTYLE
   5
@@ -20719,15 +21689,15 @@ E
   0
 SCALE
   5
-3BA
+3DB
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -20743,15 +21713,15 @@ AcDbScale
   0
 SCALE
   5
-3BB
+3DC
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -20767,15 +21737,15 @@ AcDbScale
   0
 SCALE
   5
-3BC
+3DD
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -20791,15 +21761,15 @@ AcDbScale
   0
 SCALE
   5
-3BD
+3DE
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -20815,15 +21785,15 @@ AcDbScale
   0
 SCALE
   5
-3BE
+3DF
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -20839,15 +21809,15 @@ AcDbScale
   0
 SCALE
   5
-3BF
+3E0
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -20863,15 +21833,15 @@ AcDbScale
   0
 SCALE
   5
-3C0
+3E1
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -20887,15 +21857,15 @@ AcDbScale
   0
 SCALE
   5
-3C1
+3E2
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -20911,15 +21881,15 @@ AcDbScale
   0
 SCALE
   5
-3C2
+3E3
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -20935,15 +21905,15 @@ AcDbScale
   0
 SCALE
   5
-3C3
+3E4
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -20959,15 +21929,15 @@ AcDbScale
   0
 SCALE
   5
-3C4
+3E5
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -20983,15 +21953,15 @@ AcDbScale
   0
 SCALE
   5
-3C5
+3E6
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21007,15 +21977,15 @@ AcDbScale
   0
 SCALE
   5
-3C6
+3E7
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21031,15 +22001,15 @@ AcDbScale
   0
 SCALE
   5
-3C7
+3E8
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21055,15 +22025,15 @@ AcDbScale
   0
 SCALE
   5
-3C8
+3E9
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21079,15 +22049,15 @@ AcDbScale
   0
 SCALE
   5
-3C9
+3EA
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21103,15 +22073,15 @@ AcDbScale
   0
 SCALE
   5
-3CA
+3EB
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21127,15 +22097,15 @@ AcDbScale
   0
 SCALE
   5
-3CB
+3EC
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21151,15 +22121,15 @@ AcDbScale
   0
 SCALE
   5
-3CC
+3ED
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21175,15 +22145,15 @@ AcDbScale
   0
 SCALE
   5
-3CD
+3EE
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21199,15 +22169,15 @@ AcDbScale
   0
 SCALE
   5
-3CE
+3EF
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21223,15 +22193,15 @@ AcDbScale
   0
 SCALE
   5
-3CF
+3F0
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21247,15 +22217,15 @@ AcDbScale
   0
 SCALE
   5
-3D0
+3F1
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21271,15 +22241,15 @@ AcDbScale
   0
 SCALE
   5
-3D1
+3F2
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21295,15 +22265,15 @@ AcDbScale
   0
 SCALE
   5
-3D2
+3F3
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21319,15 +22289,15 @@ AcDbScale
   0
 SCALE
   5
-3D3
+3F4
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21343,15 +22313,15 @@ AcDbScale
   0
 SCALE
   5
-3D4
+3F5
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21367,15 +22337,15 @@ AcDbScale
   0
 SCALE
   5
-3D5
+3F6
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21391,15 +22361,15 @@ AcDbScale
   0
 SCALE
   5
-3D6
+3F7
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21415,15 +22385,15 @@ AcDbScale
   0
 SCALE
   5
-3D7
+3F8
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21439,15 +22409,15 @@ AcDbScale
   0
 SCALE
   5
-3D8
+3F9
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21463,15 +22433,15 @@ AcDbScale
   0
 SCALE
   5
-3D9
+3FA
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21487,15 +22457,15 @@ AcDbScale
   0
 SCALE
   5
-3DA
+3FB
 102
 {ACAD_REACTORS
 330
-3B9
+3DA
 102
 }
 330
-3B9
+3DA
 100
 AcDbScale
  70
@@ -21511,21 +22481,21 @@ AcDbScale
   0
 TABLESTYLE
   5
-176
+177
 102
 {ACAD_REACTORS
 330
-175
+176
 102
 }
 102
 {ACAD_XDICTIONARY
 360
-3F5
+4FA
 102
 }
 330
-175
+176
 100
 AcDbTableStyle
   3
@@ -21723,21 +22693,19 @@ AcDbVisualStyle
  70
      4
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        0
+ 71
+     0
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        0
+ 73
+     0
 176
      1
  90
@@ -21748,222 +22716,100 @@ AcDbVisualStyle
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         0
 176
      1
- 62
+ 66
    257
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
-176
-     1
- 90
-        0
-176
-     1
- 90
-        0
-176
-     1
-290
-     0
-176
-     1
- 90
-        1
-176
-     1
- 40
-0.0
-176
-     1
- 90
-        0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
+ 79
      5
-420
-      255
+176
+     1
+170
+     0
+176
+     1
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
-       50
+ 93
+        1
 176
      1
- 90
-       50
+ 44
+0.0
 176
      1
- 90
-       50
-176
-     1
-290
+173
      0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -21985,21 +22831,19 @@ AcDbVisualStyle
  70
      6
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        1
+ 71
+     1
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        2
+ 73
+     2
 176
      1
  90
@@ -22010,222 +22854,100 @@ AcDbVisualStyle
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
+ 74
+     2
+176
+     1
+ 91
         2
 176
      1
- 90
-        2
-176
-     1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        2
+ 75
+     2
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 40.0
 176
      1
- 90
+ 92
         0
 176
      1
- 62
+ 66
    257
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        3
+ 79
+     3
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
         1
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -22247,21 +22969,19 @@ AcDbVisualStyle
  70
      5
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        0
+ 71
+     0
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        0
+ 73
+     0
 176
      1
  90
@@ -22272,222 +22992,100 @@ AcDbVisualStyle
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         0
 176
      1
- 62
+ 66
    257
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
-176
-     1
- 90
-        0
-176
-     1
- 90
-        0
-176
-     1
-290
-     0
-176
-     1
- 90
-        1
-176
-     1
- 40
-0.0
-176
-     1
- 90
-        0
-176
-     1
-290
-     0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
+ 79
      5
-420
-      255
+176
+     1
+170
+     0
+176
+     1
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
-       50
+ 93
+        1
 176
      1
- 90
-       50
+ 44
+0.0
 176
      1
- 90
-       50
-176
-     1
-290
+173
      0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -22509,21 +23107,19 @@ Basic
  70
      7
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        1
+ 71
+     1
 176
      1
- 90
-        0
+ 72
+     0
 176
      1
- 90
-        1
+ 73
+     1
 176
      1
  90
@@ -22534,222 +23130,100 @@ Basic
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        0
+ 74
+     0
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
-176
-     1
- 90
-        0
-176
-     1
- 90
-        0
-176
-     1
-290
-     0
-176
-     1
- 90
-        1
-176
-     1
- 40
-0.0
-176
-     1
- 90
-        0
-176
-     1
-290
-     0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
+ 79
      5
-420
-      255
+176
+     1
+170
+     0
+176
+     1
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
-       50
+ 93
+        1
 176
      1
- 90
-       50
+ 44
+0.0
 176
      1
- 90
-       50
-176
-     1
-290
+173
      0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -22771,21 +23245,19 @@ Brighten
  70
     12
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        0
+ 73
+     0
 176
      1
  90
@@ -22796,222 +23268,100 @@ Brighten
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
+ 79
+     5
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
         1
 176
      1
- 40
+ 44
 50.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -23033,21 +23383,19 @@ ColorChange
  70
     16
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        3
+ 73
+     3
 176
      1
  90
@@ -23058,224 +23406,102 @@ ColorChange
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      8
-420
+421
   8421504
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
      8
-420
+424
   8421504
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
+ 79
+     5
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
         1
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -23297,21 +23523,19 @@ Conceptual
  70
      9
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        3
+ 71
+     3
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        0
+ 73
+     0
 176
      1
  90
@@ -23322,222 +23546,100 @@ Conceptual
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
+ 74
+     2
+176
+     1
+ 91
         2
 176
      1
- 90
-        2
-176
-     1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 40.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        3
+ 79
+     3
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
         1
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -23559,21 +23661,19 @@ Dim
  70
     11
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        0
+ 73
+     0
 176
      1
  90
@@ -23584,228 +23684,106 @@ Dim
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
+ 79
+     5
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
         1
 176
      1
- 40
+ 44
 -50.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
 VISUALSTYLE
   5
-3DF
+400
 102
 {ACAD_REACTORS
 330
@@ -23821,21 +23799,19 @@ EdgeColorOff
  70
     22
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      0
- 90
-        2
+ 72
+     2
 176
      0
- 90
-        0
+ 73
+     0
 176
      0
  90
@@ -23846,222 +23822,100 @@ EdgeColorOff
 0.6
 176
      0
- 40
+ 41
 30.0
 176
      0
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      0
- 90
-        1
+ 74
+     1
 176
      0
- 90
+ 91
         4
 176
      0
- 62
+ 64
      7
 176
      0
- 62
+ 65
    257
 176
      0
- 90
-        1
+ 75
+     1
 176
      0
- 90
-        1
+175
+     1
 176
      0
- 40
+ 42
 1.0
 176
      0
- 90
+ 92
         8
 176
      2
- 62
+ 66
      7
 176
      0
- 40
+ 43
 1.0
 176
      0
- 90
-        1
+ 76
+     1
 176
      0
- 90
-        6
+ 77
+     6
 176
      0
- 90
-        2
+ 78
+     2
 176
      0
- 62
+ 67
      7
 176
      0
- 90
-        5
-176
-     0
- 90
-        0
-176
-     0
- 90
-        0
-176
-     0
-290
-     0
-176
-     0
- 90
-        1
-176
-     0
- 40
-0.0
-176
-     0
- 90
-        0
-176
-     0
-290
-     0
-176
-     0
-290
-     1
-176
-     0
-290
-     1
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
- 90
-       50
-176
-     0
- 40
-0.0
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        0
-176
-     0
- 62
-    18
-420
-        0
-176
-     0
- 90
-       50
-176
-     0
- 90
-        3
-176
-     0
- 62
+ 79
      5
-420
-      255
+176
+     0
+170
+     0
+176
+     0
+171
+     0
 176
      0
 290
      0
 176
      0
- 90
-       50
+ 93
+        1
 176
      0
- 90
-       50
+ 44
+0.0
 176
      0
- 90
-       50
-176
+173
      0
-290
-     0
-176
-     0
- 90
-       50
-176
-     0
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     0
-  1
-strokes_ogs.tif
-176
-     0
-290
-     0
-176
-     0
- 40
-1.0
-176
-     0
- 40
-1.0
 176
      0
   0
@@ -24083,21 +23937,19 @@ Facepattern
  70
     15
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        0
+ 73
+     0
 176
      1
  90
@@ -24108,222 +23960,100 @@ Facepattern
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
-176
-     1
- 90
-        0
-176
-     1
- 90
-        0
-176
-     1
-290
-     0
-176
-     1
- 90
-        1
-176
-     1
- 40
-0.0
-176
-     1
- 90
-        0
-176
-     1
-290
-     0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
+ 79
      5
-420
-      255
+176
+     1
+170
+     0
+176
+     1
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
-       50
+ 93
+        1
 176
      1
- 90
-       50
+ 44
+0.0
 176
      1
- 90
-       50
-176
-     1
-290
+173
      0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -24345,21 +24075,19 @@ Flat
  70
      0
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        1
+ 72
+     1
 176
      1
- 90
-        1
+ 73
+     1
 176
      1
  90
@@ -24370,222 +24098,100 @@ Flat
 -0.6
 176
      1
- 40
+ 41
 30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        0
+ 74
+     0
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
+ 79
+     5
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
        13
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -24607,21 +24213,19 @@ FlatWithEdges
  70
      1
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        1
+ 72
+     1
 176
      1
- 90
-        1
+ 73
+     1
 176
      1
  90
@@ -24632,222 +24236,100 @@ FlatWithEdges
 -0.6
 176
      1
- 40
+ 41
 30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         0
 176
      1
- 62
+ 66
    257
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
+ 79
+     5
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
        13
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -24869,21 +24351,19 @@ Gouraud
  70
      2
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        1
+ 73
+     1
 176
      1
  90
@@ -24894,222 +24374,100 @@ Gouraud
 -0.6
 176
      1
- 40
+ 41
 30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        0
+ 74
+     0
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         0
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
+ 79
+     5
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
        13
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -25131,21 +24489,19 @@ GouraudWithEdges
  70
      3
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        1
+ 73
+     1
 176
      1
  90
@@ -25156,228 +24512,106 @@ GouraudWithEdges
 -0.6
 176
      1
- 40
+ 41
 30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         0
 176
      1
- 62
+ 66
    257
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
+ 79
+     5
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
        13
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
 VISUALSTYLE
   5
-3DC
+3FD
 102
 {ACAD_REACTORS
 330
@@ -25393,21 +24627,19 @@ Hidden
  70
      6
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        1
+ 71
+     1
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        2
+ 73
+     2
 176
      1
  90
@@ -25418,228 +24650,106 @@ Hidden
 0.6
 176
      1
- 40
+ 41
 30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
+ 74
+     2
+176
+     1
+ 91
         2
 176
      1
- 90
-        2
-176
-     1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        2
+ 75
+     2
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 40.0
 176
      1
- 90
+ 92
         0
 176
      1
- 62
+ 66
    257
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        3
+ 79
+     3
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
         1
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
 VISUALSTYLE
   5
-3DD
+3FE
 102
 {ACAD_REACTORS
 330
@@ -25655,21 +24765,19 @@ JitterOff
  70
     20
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      0
- 90
-        2
+ 72
+     2
 176
      0
- 90
-        0
+ 73
+     0
 176
      0
  90
@@ -25680,222 +24788,100 @@ JitterOff
 0.6
 176
      0
- 40
+ 41
 30.0
 176
      0
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      0
- 90
-        1
+ 74
+     1
 176
      0
- 90
+ 91
         4
 176
      0
- 62
+ 64
      7
 176
      0
- 62
+ 65
    257
 176
      0
- 90
-        1
+ 75
+     1
 176
      0
- 90
-        1
+175
+     1
 176
      0
- 40
+ 42
 1.0
 176
      0
- 90
+ 92
        10
 176
      2
- 62
+ 66
      7
 176
      0
- 40
+ 43
 1.0
 176
      0
- 90
-        1
+ 76
+     1
 176
      0
- 90
-        6
+ 77
+     6
 176
      0
- 90
-        2
+ 78
+     2
 176
      0
- 62
+ 67
      7
 176
      0
- 90
-        5
-176
-     0
- 90
-        0
-176
-     0
- 90
-        0
-176
-     0
-290
-     0
-176
-     0
- 90
-        1
-176
-     0
- 40
-0.0
-176
-     0
- 90
-        0
-176
-     0
-290
-     0
-176
-     0
-290
-     1
-176
-     0
-290
-     1
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
- 90
-       50
-176
-     0
- 40
-0.0
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        0
-176
-     0
- 62
-    18
-420
-        0
-176
-     0
- 90
-       50
-176
-     0
- 90
-        3
-176
-     0
- 62
+ 79
      5
-420
-      255
+176
+     0
+170
+     0
+176
+     0
+171
+     0
 176
      0
 290
      0
 176
      0
- 90
-       50
+ 93
+        1
 176
      0
- 90
-       50
+ 44
+0.0
 176
      0
- 90
-       50
-176
+173
      0
-290
-     0
-176
-     0
- 90
-       50
-176
-     0
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     0
-  1
-strokes_ogs.tif
-176
-     0
-290
-     0
-176
-     0
- 40
-1.0
-176
-     0
- 40
-1.0
 176
      0
   0
@@ -25917,21 +24903,19 @@ Linepattern
  70
     14
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        0
+ 73
+     0
 176
      1
  90
@@ -25942,228 +24926,106 @@ Linepattern
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        7
+ 75
+     7
 176
      1
- 90
-        7
+175
+     7
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
-176
-     1
- 90
-        0
-176
-     1
- 90
-        0
-176
-     1
-290
-     0
-176
-     1
- 90
-        1
-176
-     1
- 40
-0.0
-176
-     1
- 90
-        0
-176
-     1
-290
-     0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
+ 79
      5
-420
-      255
+176
+     1
+170
+     0
+176
+     1
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
-       50
+ 93
+        1
 176
      1
- 90
-       50
+ 44
+0.0
 176
      1
- 90
-       50
-176
-     1
-290
+173
      0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
 VISUALSTYLE
   5
-3DE
+3FF
 102
 {ACAD_REACTORS
 330
@@ -26179,21 +25041,19 @@ OverhangOff
  70
     21
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      0
- 90
-        2
+ 72
+     2
 176
      0
- 90
-        0
+ 73
+     0
 176
      0
  90
@@ -26204,222 +25064,100 @@ OverhangOff
 0.6
 176
      0
- 40
+ 41
 30.0
 176
      0
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      0
- 90
-        1
+ 74
+     1
 176
      0
- 90
+ 91
         4
 176
      0
- 62
+ 64
      7
 176
      0
- 62
+ 65
    257
 176
      0
- 90
-        1
+ 75
+     1
 176
      0
- 90
-        1
+175
+     1
 176
      0
- 40
+ 42
 1.0
 176
      0
- 90
+ 92
         9
 176
      2
- 62
+ 66
      7
 176
      0
- 40
+ 43
 1.0
 176
      0
- 90
-        1
+ 76
+     1
 176
      0
- 90
-        6
+ 77
+     6
 176
      0
- 90
-        2
+ 78
+     2
 176
      0
- 62
+ 67
      7
 176
      0
- 90
-        5
-176
-     0
- 90
-        0
-176
-     0
- 90
-        0
-176
-     0
-290
-     0
-176
-     0
- 90
-        1
-176
-     0
- 40
-0.0
-176
-     0
- 90
-        0
-176
-     0
-290
-     0
-176
-     0
-290
-     1
-176
-     0
-290
-     1
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
-290
-     0
-176
-     0
- 90
-       50
-176
-     0
- 40
-0.0
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        0
-176
-     0
- 62
-    18
-420
-        0
-176
-     0
- 90
-       50
-176
-     0
- 90
-        3
-176
-     0
- 62
+ 79
      5
-420
-      255
+176
+     0
+170
+     0
+176
+     0
+171
+     0
 176
      0
 290
      0
 176
      0
- 90
-       50
+ 93
+        1
 176
      0
- 90
-       50
+ 44
+0.0
 176
      0
- 90
-       50
-176
+173
      0
-290
-     0
-176
-     0
- 90
-       50
-176
-     0
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     0
-  1
-strokes_ogs.tif
-176
-     0
-290
-     0
-176
-     0
- 40
-1.0
-176
-     0
- 40
-1.0
 176
      0
   0
@@ -26441,21 +25179,19 @@ Realistic
  70
      8
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        0
+ 73
+     0
 176
      1
  90
@@ -26466,230 +25202,108 @@ Realistic
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         0
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
      8
-420
+424
   7895160
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
+ 79
+     5
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
        13
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
 VISUALSTYLE
   5
-3E4
+405
 102
 {ACAD_REACTORS
 330
@@ -26705,21 +25319,19 @@ Shaded
  70
     27
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        1
+ 73
+     1
 176
      1
  90
@@ -26730,230 +25342,108 @@ Shaded
 0.6
 176
      1
- 40
+ 41
 30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        0
+ 74
+     0
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
    257
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      8
-420
+425
   7895160
 176
      1
- 90
-        3
+ 79
+     3
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
         5
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
 VISUALSTYLE
   5
-3E3
+404
 102
 {ACAD_REACTORS
 330
@@ -26969,21 +25459,19 @@ Shaded with edges
  70
     26
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        1
+ 73
+     1
 176
      1
  90
@@ -26994,228 +25482,106 @@ Shaded with edges
 0.6
 176
      1
- 40
+ 41
 30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
        10
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        2
+ 75
+     2
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
    257
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        3
+ 79
+     3
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
         5
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
 VISUALSTYLE
   5
-3E0
+401
 102
 {ACAD_REACTORS
 330
@@ -27231,21 +25597,19 @@ Shades of Gray
  70
     23
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        3
+ 73
+     3
 176
      1
  90
@@ -27256,228 +25620,106 @@ Shades of Gray
 0.6
 176
      1
- 40
+ 41
 30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
+ 74
+     2
+176
+     1
+ 91
         2
 176
      1
- 90
-        2
-176
-     1
- 62
+ 64
      7
 176
      1
- 62
+ 65
      7
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 40.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        3
+ 79
+     3
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
         1
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
 VISUALSTYLE
   5
-3E1
+402
 102
 {ACAD_REACTORS
 330
@@ -27493,21 +25735,19 @@ Sketchy
  70
     24
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        1
+ 71
+     1
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        2
+ 73
+     2
 176
      1
  90
@@ -27518,222 +25758,100 @@ Sketchy
 0.6
 176
      1
- 40
+ 41
 30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
+ 74
+     2
+176
+     1
+ 91
         2
 176
      1
- 90
-        2
-176
-     1
- 62
+ 64
      7
 176
      1
- 62
+ 65
      7
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 40.0
 176
      1
- 90
+ 92
        11
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        6
+ 79
+     6
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
         1
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
@@ -27755,21 +25873,19 @@ Thicken
  70
     13
 177
-     3
+     2
 291
      1
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        0
+ 73
+     0
 176
      1
  90
@@ -27780,228 +25896,106 @@ Thicken
 -0.6
 176
      1
- 40
+ 41
 -30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
        12
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        5
-176
-     1
- 90
-        0
-176
-     1
- 90
-        0
-176
-     1
-290
-     0
-176
-     1
- 90
-        1
-176
-     1
- 40
-0.0
-176
-     1
- 90
-        0
-176
-     1
-290
-     0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
+ 79
      5
-420
-      255
+176
+     1
+170
+     0
+176
+     1
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
-       50
+ 93
+        1
 176
      1
- 90
-       50
+ 44
+0.0
 176
      1
- 90
-       50
-176
-     1
-290
+173
      0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
 VISUALSTYLE
   5
-3DB
+3FC
 102
 {ACAD_REACTORS
 330
@@ -28017,21 +26011,19 @@ Wireframe
  70
      5
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        0
+ 71
+     0
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        0
+ 73
+     0
 176
      1
  90
@@ -28042,228 +26034,106 @@ Wireframe
 0.6
 176
      1
- 40
+ 41
 30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         4
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         0
 176
      1
- 62
+ 66
    257
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        3
+ 79
+     3
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
         1
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
 VISUALSTYLE
   5
-3E2
+403
 102
 {ACAD_REACTORS
 330
@@ -28279,21 +26149,19 @@ X-Ray
  70
     25
 177
-     3
+     2
 291
      0
- 70
-    58
- 90
-        2
+ 71
+     2
 176
      1
- 90
-        2
+ 72
+     2
 176
      1
- 90
-        1
+ 73
+     1
 176
      1
  90
@@ -28304,236 +26172,114 @@ X-Ray
 0.5
 176
      1
- 40
+ 41
 30.0
 176
      1
  62
+     5
+ 63
      7
-420
+421
  16777215
 176
      1
- 90
-        1
+ 74
+     1
 176
      1
- 90
+ 91
         0
 176
      1
- 62
+ 64
      7
 176
      1
- 62
+ 65
    257
 176
      1
- 90
-        1
+ 75
+     1
 176
      1
- 90
-        1
+175
+     1
 176
      1
- 40
+ 42
 1.0
 176
      1
- 90
+ 92
         8
 176
      1
- 62
+ 66
      7
 176
      1
- 40
+ 43
 1.0
 176
      1
- 90
-        1
+ 76
+     1
 176
      1
- 90
-        6
+ 77
+     6
 176
      1
- 90
-        2
+ 78
+     2
 176
      1
- 62
+ 67
      7
 176
      1
- 90
-        3
+ 79
+     3
 176
      1
- 90
-        0
+170
+     0
 176
      1
- 90
-        0
+171
+     0
 176
      1
 290
      0
 176
      1
- 90
+ 93
        13
 176
      1
- 40
+ 44
 0.0
 176
      1
- 90
-        0
-176
-     1
-290
+173
      0
-176
-     1
-290
-     1
-176
-     1
-290
-     1
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 40
-0.0
-176
-     1
- 40
-1.0
-176
-     1
- 90
-        0
-176
-     1
- 62
-    18
-420
-        0
-176
-     1
- 90
-       50
-176
-     1
- 90
-        3
-176
-     1
- 62
-     5
-420
-      255
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
- 90
-       50
-176
-     1
-290
-     0
-176
-     1
- 90
-       50
-176
-     1
- 62
-   256
-176
-     0
- 40
-1.0
-176
-     0
- 90
-        2
-176
-     1
-  1
-strokes_ogs.tif
-176
-     1
-290
-     0
-176
-     1
- 40
-1.0
-176
-     1
- 40
-1.0
 176
      1
   0
 DICTIONARYVAR
   5
-3ED
+410
 102
 {ACAD_REACTORS
 330
-3EC
+40F
 102
 }
 330
-3EC
+40F
 100
 DictionaryVariables
 280
@@ -28543,15 +26289,15 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-3F2
+415
 102
 {ACAD_REACTORS
 330
-3EC
+40F
 102
 }
 330
-3EC
+40F
 100
 DictionaryVariables
 280
@@ -28561,15 +26307,15 @@ Standard
   0
 DICTIONARYVAR
   5
-3F1
+414
 102
 {ACAD_REACTORS
 330
-3EC
+40F
 102
 }
 330
-3EC
+40F
 100
 DictionaryVariables
 280
@@ -28579,9 +26325,9 @@ Standard
   0
 DICTIONARY
   5
-3F5
+4FA
 330
-176
+177
 100
 AcDbDictionary
 280
@@ -28591,19 +26337,19 @@ AcDbDictionary
   3
 ACAD_ROUNDTRIP_2008_TABLESTYLE_CELLSTYLEMAP
 360
-3F6
+4FB
   0
 CELLSTYLEMAP
   5
-3F6
+4FB
 102
 {ACAD_REACTORS
 330
-3F5
+4FA
 102
 }
 330
-3F5
+4FA
 100
 AcDbCellStyleMap
  90
